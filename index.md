@@ -173,7 +173,7 @@ Raku *checkpoint controls* tagavad, et toimuks
 - eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
 
 --- &twocol
-##
+## Rad17: genoomi replitseeritakse ainult üks kord 
 
 ***=left
 
@@ -183,3 +183,15 @@ Chromosomal aberrations in RAD17 flox/− cells. Metaphase chromosome spread of 
 
 ![rad17](http://genesdev.cshlp.org/content/17/8/965/F4.medium.gif)
 
+---
+## BUB1: mitotic checkpoint and development of aneuploidy
+
+![bub](http://cancerres.aacrjournals.org/content/63/11/2855/F5.medium.gif)
+
+
+---
+## ATR replication checkpoint
+
+ATR Regulates Fragile Site Stability
+
+![](http://ars.els-cdn.com/content/image/1-s2.0-S0092867402011133-gr5.jpg)
