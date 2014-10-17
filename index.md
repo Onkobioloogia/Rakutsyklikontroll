@@ -71,7 +71,7 @@ http://tpall.github.io/Rakutsyklikontroll
 - Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks.
 - Rakutsüklit kontrolliv 'masinavärk' on universaalne kõigis organismi rakutüüpides.
 - Raku rakutsüklisse sisenemist ja 'masinavärgi käivitamist' reguleerivad raku väliskeskkonna signaalid.
-- Raktsüklis on neli järjestikust faasi **G1** $\rightarrow$ **S** $\rightarrow$ **G2** $\rightarrow$ **M**.
+- Rakutsüklis on neli järjestikust faasi **G1** $\rightarrow$ **S** $\rightarrow$ **G2** $\rightarrow$ **M**.
 - Mittejagunev rakk on vaikeolekus (*quiescence*) ehk **G0** faasis.
 
 ---
@@ -108,20 +108,67 @@ Rakutsüklis on neli üksteisele järgnevat faasi:
 
 ***=left
 
-- **G1** rakk kasvab ja valmistub sisenema S faasi.
-- **S-faas**is toimub genoomse DNA replikatsioon.
-- **G2 faas**is leiab aset ettevalmistus mitoosiks.
-- **M** mitoos
+- **G1** algab peale mitoosi ja kestab kuni DNA replikatsiooni alguseni S faasis,
+    - rakk kasvab ja valmistub sisenema S faasi.
+- **S-faas**is toimub genoomse DNA süntees.
+- **G2 faas** on intervall DNA sünteesi eduka lõpu ja mitoosis toimuva kromosoomide lahknemise vahel,
+    - suhteliselt lühike,
+    - mitoosis vajalike valkude süntees.
+- **M-faas** mitoos.
+
 
 ***=right
 
-- G1, S ja G2 moodustavad **interfaas**i
-- Mitoosi on **profaas**, **metafaas**, **anafaas** ja **telofaas**
+<img src="mitosis3_1.png" alt="cell cycle" style="width:400px;"/>
 
---- 
+---&twocol
 ## Mitoosi faasid
 
-![newt](http://www.sciencemag.org/content/300/5616/91/F3.large.jpg)
+***=left
 
+M-faasis toimub kromosoomide lahknemine
+
+- **Profaasis** toimub kromosoomide kondenseerumine.
+      - Moodustub **mitoosikääv**.
+- **Metafaasis** joonduvad õdekromatiidid.
+- **Anafaasis** toimub õdekromatiidide lahknemine poolustele.
+- **Telofaasis** moodustub uuesti tuumamembraan ja tuum.
+- **Tsütokinees**: moodustub kaks tütarrakku.
+
+***=right
+
+**Mitoosi faasid vesiliku kopsurakus**
+
+<img src="http://www.sciencemag.org/content/300/5616/91/F3.large.jpg" alt="newt" style="width:460px;"/>
 <p style="font-size:12pt">Pilt: DOI: 10.1126/science.1082177</p>
+
+---
+## Rakkude kasv vs jagunemine
+
+- Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks.
+- Selleks peab rakk 'kahekordistama' oma suuruse.
+- Pärmi katsed on näidanud, et **raku suurus valitseb rakutsükli üle: väikesed rakud ei jagune**.
+- Mutatsioonid mis kiirendavad rakutsükli kulgu põhjustavad väiksemate rakkude tekke.
+- Rakkude kasv toimub G1 faasis.
+
+<img src="http://ars.els-cdn.com/content/image/1-s2.0-S0092867401003336-gr1.jpg" alt="tsc1" style="height:240px;"/>
+<p style="font-size:12pt">Mutation of Tsc1 Increases Cell and Organ Size. Source: DOI: 10.1016/S0092-8674(01)00333-6 </p>
+
+--- 
+## Rakutsükli kontrollpunktid ehk *checkpoints*
+
+Raku *checkpoint controls* tagavad, et toimuks
+- Tuuma tsükli koordineerimine raku kasvu ja pooldumisega.
+- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
+- Replikatsioon peab eelnema kromosoomide lahknemisele.
+- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
+
+---
+## *Checkpoints*
+
+- G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane.
+- S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.
+- G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud. 
+- M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud.
+- eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
 
