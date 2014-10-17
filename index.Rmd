@@ -172,3 +172,14 @@ Raku *checkpoint controls* tagavad, et toimuks
 - M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud.
 - eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
 
+--- &twocol
+##
+
+***=left
+
+Chromosomal aberrations in RAD17 flox/− cells. Metaphase chromosome spread of cells with indicated genotype 5 d after Ad–Cre infection. (A) Normal diploid metaphase spread found in RAD17 +/+cells. (B) Normal diploid metaphase spread found inRAD17 flox/+ cells. (C) Chromosomal abnormalities in RAD17 flox/− cells. Arrows point to gapped or broken chromosomes. (D) Metaphase chromosome spread from RAD17 flox/− cells with partially endoreduplicated chromosomes.
+
+***=right
+
+![rad17](http://genesdev.cshlp.org/content/17/8/965/F4.medium.gif)
+
