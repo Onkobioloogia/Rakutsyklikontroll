@@ -183,15 +183,24 @@ Chromosomal aberrations in RAD17 flox/− cells. Metaphase chromosome spread of 
 
 ![rad17](http://genesdev.cshlp.org/content/17/8/965/F4.medium.gif)
 
----
-## BUB1: mitotic checkpoint and development of aneuploidy
+---&twocol
+## BUB1: spindle assembly checkpoint (SAC) and development of aneuploidy
 
-![bub](http://cancerres.aacrjournals.org/content/63/11/2855/F5.medium.gif)
+***=left
 
+- Mutations in the spindle checkpoint can lead to chromosomal instability and aneuploidy, a feature present in over 90% of all solid tumor.
+- Inhibition of BUB1 is sufficient to confer an aneuploid phenotype.
+
+***=right
+
+This particular cell has lost chromosomes 1 and 6. 
+
+
+<img src="F5.large.jpg" alt="bub1" style="width:500px;"/>
 
 ---
 ## ATR replication checkpoint
 
 ATR Regulates Fragile Site Stability
 
-![](http://ars.els-cdn.com/content/image/1-s2.0-S0092867402011133-gr5.jpg)
+![](1-s2.0-S0092867402011133-gr5.jpg)
