@@ -359,6 +359,9 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
 - Kui DNA kahjustused on parandatud, siis võetakse p21^Cip1 -blokk maha.
 - p21^Cip1 inhibeerib ka DNA replikatsiooni masinavärgi valku PCNA (*proliferating cell nuclear antigen*).
 
+<img src="http://www-bioc.rice.edu/~shamoo/threeclamps.jpg" style="width:400px;" />
+<p style="font-size:12pt">Pilt: p21 (A, punane) blokeerib PCNA-l (sliding clamp) DNA polümeraasi seostumiskoha (B, C). http://www-bioc.rice.edu </p>
+
 ---
 ## Mitogeenne signalisatsioon inhibeerib p21Cip1 ja p27Kip1
 
@@ -402,6 +405,17 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://blogs.shu.edu/cancer/files/2014/08/figure_08_19-1024x903.jpg" style="width:400px;" />
 
 ---
+## RB valgud ehk 'taskuvalgud' (*pocketproteins*)
+
+- RB, p107 ja p130 moodustavad 'taskuvalkude' perekonna.
+- RB on 25% homoloogne ülejäänud kahega ja p107 ning p130 on omavahel 54% identsed.
+- RB *knockout* on hiirele embrüonaalselt surmav, kuid p107 või p130 *knockout* -il pole silmaga nähtavat fenotüüpi.
+- RB omab tugevat tuumorsupresorfunktsiooni ja p107/p130 mutatsioonid on vähkides harvad.
+
+<img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-i2.jpg" style="width:400px;" />
+<p style="font-size:8pt">Molecular mechanisms underlying RB protein function. Frederick A. Dick & Seth M. Rubin. Nature Reviews Molecular Cell Biology 14, 297-306 (May 2013) doi:10.1038/nrm3567</p>
+
+---
 ## Imetajate E2F TF perekond.
 
 - Kaheksa geeni E2F1-8, kolm toimivad aktivaatoritena (E2F1-3a) ja ülejäänud repressoritena (E2F3b-8).
@@ -412,7 +426,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://cancer.osu.edu/about/publications/PublishingImages/Frontiers%20Winter%202011/RB%20regulation%20illustration.jpg" style="width:400px;" />
 
 ---
-## RB valgud seovad E2F
+## RB valgud toimivad läbi E2F
 
 - Hüpofosforüleeritud pRB seostumine maskeerib aktivaatoritel transkriptsiooni aktivatsiooni domääni.
 - Repressorvalkude E2F4 ja E2F5 seostumine taskuvalkudele (peamiselt p107 ja p130) moodustab E2F märklaudgeenide promootoritele repressorkompleksid.
