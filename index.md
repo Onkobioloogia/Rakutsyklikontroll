@@ -514,3 +514,21 @@ T rakud | | üles | | alla
 ## Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini
 
 [Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](cellcyclecancer.html)
+
+
+---
+## Lingid eelmistele loengutele
+
+1. [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
+
+2. [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+
+3. [Onkoviirused](http://tpall.github.io/Onkoviirused)
+
+4. [Onkogeenid](http://tpall.github.io/Onkogeenid)
+
+5. [Retseptorid](http://tpall.github.io/Retseptorid)
+
+6. [Signaalirajad](http://tpall.github.io/Signaalirajad)
+
+7. [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
