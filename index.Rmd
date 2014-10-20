@@ -348,6 +348,7 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
 - Ilma aktiivse tsükliin D-CDK4/6 pole rakutsükkel võimeline arenema läbi varase ja keskmise G1 faasi R-punktini.
 - Kui rakk on juba R-punkti läbinud pole enam D-CDK4/6 aktiivsus vajalik.
 - Peale R-punkti muutub rakk 'tundetuks' ka TGF-$\beta$ inhibeerivale toimele.
+- [CDKN2A/B lookus 9p21.3 on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3).
 
 ---
 ## p21^Cip1 aktiveeritakse vastusena stressile
