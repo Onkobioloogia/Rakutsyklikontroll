@@ -321,6 +321,18 @@ IL-5 retseptor | STAT3/5 | D**3**
  | E2F transkriptsiooni faktorid | D**3**
 
 ---
+## Tsükliin D1 regulatsiooni mehhnismid
+
+GF-Ras-Raf-Erk ja Wnt signaalirada kontrollib tsükliin D1 ekspressiooni ning stabiilsust ja GSK3$\beta$ on siin negatiivne regulaator.
+
+- Stabiilne 5–6 tundi kestev ERK signalisatsioon indutseerib tsükliin D1 ekspressiooni kesk-G1 faasis (~8–9 tundi peale mitogeense stimulatsiooni algust vaikeolekus rakkudes).
+- PI3-kinaas/Akt fosforüleerib glükogeen süntaasi kinaasi 3$\beta$ (GSK3$\beta$) ja inhibeerib selle aktiivsuse.
+- GSK3$\beta$ fosforüleerib tsükliin D1 Thr286 mistõttu see translokeerub tuumast tsütoplasmasse ja satub lagundamisele.
+- Teisalt indutseerib Wnt signaalirada D1 ekspressiooni läbi $\beta$-kateniini.
+    - $\beta$-kateniini lagundamist kontrollib samuti GSK3$\beta$.
+    - lisaks kontrollib GSK3$\beta$ p27Kip1 degradatsiooni.
+
+---
 ## Tsükliin D-CDK4/6 lükkavad raku läbi Restriktsiooni-punkti
 
 - Rakud vastvad rakuvälistele mitogeensetele signaalidele kuni R-punktini.
@@ -426,7 +438,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 
 <img src="http://cancer.osu.edu/about/publications/PublishingImages/Frontiers%20Winter%202011/RB%20regulation%20illustration.jpg" style="width:400px;" />
 
----
+---&twocol
 ## RB valgud toimivad läbi E2F
 
 - Hüpofosforüleeritud pRB seostumine maskeerib aktivaatoritel transkriptsiooni aktivatsiooni domääni.
@@ -434,7 +446,14 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 - Hüpofosforüleeritud RB valgud seostuvad ka DNA-l olevatele E2F valkudele vaigistades niimoodi geeniekspressiooni. Kompleksi 'tõmmatakse' ka histooni deatsetülaas HDAC mis muudab kromatiini struktuuri transkriptsioonile mittepermissiivseks.
 - pRB seostub eelkõige E2F1-3 valkudele ning p107 ja p130 E2F4,5.
 
-![RB](http://www.nature.com/nrm/journal/v9/n9/images/nrm2469-i1.jpg)
+***=left
+
+<img src="http://www.nature.com/nrm/journal/v9/n9/images/nrm2469-i1.jpg" style="width:400px;" />
+
+
+***=right
+
+<img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f2.jpg" style="width:400px;" />
 
 ---
 ## pRB valkude E2F TF seostumiskoht on konserveerunud
@@ -445,5 +464,21 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 - Tärniga nool näitab B-domäänil asuvat LxCxE-motiivi sisaldavate valkude (HPV E7) seostumiskohta ([Lee et. al 2002](http://genesdev.cshlp.org/content/16/24/3199.full)).
 - HPV E7 valgu seostumine RB-le rikub 'tasku' konformatsiooni nii, et see ei saa enam siduda E2F valke.
 
+---
+## Transkriptsioonist sõltumatu RB rakutsükli regulatsioon
+
+**RB stabiliseerib p27Kip1**. 
+- RB vahendab ka p27 proteolüütilist lagundamist vahendava Skp2 degradatsiooni.
+- Skp2 on ubikvitiini ligaasi kompleksi p27 ära tundev subühik.
+- RB seob Skp2 üle oma C-terminaalse domääni ja esitleb selle APC/C (*anaphase-promoting complex/cyclosome*) lagundamisele.
+- APC seostub RB B-boxi LxCxE-motiivi sisaldavate valkude seostumiskohta.
+
+<img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f3.jpg" style="width:360px;" />
 
 ---
+## pRB hüperfosforüleerimist võimendab positiivne tagasiside
+
+G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid.
+- **Tsükliin E transkriptsiooni reguleerib E2F** ja hüpofosforüleeritud RB repressioonist vabanev E2F võimendab edasist kiiret RB hüperfosorüleerimist läbi tsükliin E-CDK2.
+- **p27Kip1 on tsükliin E-CDK2 substraat** ning fosfo-p27 määratakse ubikvitiin-proteasoomsele lagundamisele.
+
