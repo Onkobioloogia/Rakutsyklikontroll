@@ -1,0 +1,55 @@
+---
+title: "Tsükliinide avastamine"
+author: "Credit: Bernd Pulverer, Nature"
+date: "19.10.2014"
+output: ioslides_presentation
+---
+
+## MPF kannuskonnas ja merisiilikus 
+- Meiosis and early embryonic cell cycles of the African clawed toad (Xenopus laevis) and sea urchins were much studied in the 1970s and 1980s as model systems that are amenable to biochemical analysis. 
+- A protein termed the maturation-promoting factor (MPF) was identified early on.
+
+## Tükliinid
+- In 1982, Tim Hunt and colleagues studied protein synthesis in sea-urchin and surf-clam eggs. They discovered that several proteins accumulated to a high level during interphase, only to decline precipitously shortly before the eggs divided. 
+- They coined the name 'cyclin' for these — and other — proteins that showed such cell-cycle-oscillatory behaviour.
+- In the first report, two classes of cyclin — A and B — were described on the basis of their molecular weight. 
+- "The parallels between the behaviour of MPF and cyclin are striking, but whether there is a direct correspondence between the physiological entity (MPF) and the chemical one (cyclin) remains to be determined".
+
+## Tsükliinid on universaalsed
+- Subsequently, cyclins were identified in a variety of organisms, demonstrating the universality of this phenomenon. 
+- Joan Ruderman and colleagues cloned and sequenced clam cyclin A in 1986, and demonstrated that microinjected cyclin A messenger RNA was sufficient to induce maturation in Xenopus oocytes.
+
+## Tsükliini süntees on vajalik rakutsükli töös hoidmiseks
+
+- Marc Kirschner and Andrew Murray took the next crucial step in 1989 by studying the role of cyclins in Xenopus reconstituted cell extracts. 
+- They built on Yoshio Masui's earlier work and developed cell-free extracts that could undergo three or more cycles. 
+- They confirmed that protein synthesis was required for these repeated in vitro cell cycles,         - and showed that addition of in-vitro-transcribed sea-urchin cyclin B mRNA could restore cycling of extracts whose mRNA had been ablated enzymatically, 
+- addition of in-vitro-translated cyclin B protein proved to be sufficient to re-establish cycling of extracts in which protein synthesis had been blocked. 
+
+## Kindla tsükliini süntees on vajalik rakusükli progresseerumiseks
+
+> So, the previously established protein-synthesis requirement for cell-cycle progression was shown to be related to expression of a single class of cyclin.
+
+## Tsükliini lagundamine samuti kriitiline
+
+- Murray and Kirschner went on to generate an **amino-terminal deletion mutant of cyclin B, which was resistant to proteolysis following mitotic exit but could still activate MPF and hence drive extracts into M phase.** 
+- **This mutant blocked the extract permanently in M phase.** 
+- Similar observations were made following microinjection of the truncated cyclin B into oocytes, 
+- demonstrating that **cyclin B degradation is necessary for exit from meiosis and mitosis.**
+
+- Finally, crude fractionations of MPF/Cdc2 were used to show that cyclin B directly activates MPF.
+
+## Tsükliin on otsene Cdc2 regulaator
+
+- Furthermore, biochemical analysis of MPF and yeast genetics emerging around the same time strengthened the idea that cyclin directly regulates Cdc2 by forming a heterodimer. 
+- However, it took several years to show directly that cyclin activates Cdc2 as a protein kinase.
+
+## Refs
+
+- Evans, T., Rosenthal, E. T., Youngblom, J., Distel, D. & Hunt, T. Cyclin: a protein specified by maternal mRNA in sea urchin eggs that is destroyed at each cleavage division. Cell 33, 389-396 (1983)
+
+- Swenson, K. I., Farrell, K. M. & Ruderman, J. V. The clam embryo protein cyclin A induces entry into M phase and the resumption of meiosis in Xenopus oocytes. Cell 47, 861-870 (1986)
+
+- Murray, A. W. & Kirschner, M. W. Cyclin synthesis drives the early embryonic cell cycle. Nature 339, 275-280 (1989)
+
+- Murray, A. W., Solomon, M. J. & Kirschner, M. W. The role of cyclin synthesis and degradation in the control of maturation promoting factor activity. Nature 339, 280-286 (1989)
