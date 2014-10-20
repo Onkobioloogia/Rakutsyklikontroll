@@ -58,6 +58,14 @@ strong {
 --- .segue .dark 
 ## Recap
 
+
+---
+## Tuumorsupressorgeenid
+
+>**Tuumorsupressorgeen**, või **antionkogeen**, on geen mis hoiab ära raku transformatsiooni. Kui see geen muteerub rakus ja tema funktsioon kaob või väheneb, siis võib see rakk areneda vähiks. Tavaliselt on vaja ka teisi onkogeenseid lisamuutusi  (Wikipedia).
+
+
+
 --- .segue .dark .nobackground
 ## Rakutsükkel
 
