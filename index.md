@@ -482,3 +482,35 @@ G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid.
 - **Tsükliin E transkriptsiooni reguleerib E2F** ja hüpofosforüleeritud RB repressioonist vabanev E2F võimendab edasist kiiret RB hüperfosorüleerimist läbi tsükliin E-CDK2.
 - **p27Kip1 on tsükliin E-CDK2 substraat** ning fosfo-p27 määratakse ubikvitiin-proteasoomsele lagundamisele.
 
+---
+## Vähis mitmeid strateegiaid RB funktsiooni tasalülitamiseks, MYC
+
+- RB geeni mutatsioonid retinoblastoomis, osteosarkoomis ja väikserakulistes kopsukasvajates.
+- HPV E7 seostumine pRB-le inaktiveerib selle >99.7% emakakaela vähkides.
+
+- **Myc-Max aktiveerib tsükliin D2 ja CDK4 transkriptsiooni**. 
+- Myc on üle ekspresseeritud 15-30% vähkides.
+- Lisaks **aktiveerib Myc-Max ka Cul1 transkriptsiooni**, mis on SCF(SKP2) sisaldava kompleksi E3 ubikvitiin ligaas ja ubikvitineerib fosfo-p27kip.
+- **Myc-Miz1 heterodimeer inhibeerib aga p15^INK4B ning p21Cip1, p27Kip1 transkriptsiooni**.
+
+---
+## Normaalselt TGF-$\beta$ supresseerib Myc ekspressiooni
+
+Võttes arvesse Myc-i võimet p15^INK4B ekspressioon kinni panna ja seega TGF-$\beta$ jagunemist kontrolliv mõju nullida, siis
+- **normaalsetes rakkudes on Myc geen siiski TGF-$\beta$ raja kontrolli all**.
+- Fosfo-SMAD3 istub koos E2F4/5 (repressiivsed E2F valgud), p107 ja C/EBP$\beta$ valkudega Myc geeni promootoril ja paneb sellelt transkriptsiooni efektiivselt kinni.
+
+Tabel. Erinevates rakutüüpides CdkI üles-regulatsioon varieerub vastusena TGF-$\beta$ stimulatsioonile, kuid Myc alla-regulatsioon on universaalne.
+
+Rakud | p15^INK4B | p21^Cip1 | p57^Kip2 | c-MYC
+------|-----------|----------|----------|--------
+epiteeli eellasrakud | üles | üles |  | alla
+neuraalsed eellasrakud, astrotsüüdid | üles | üles |  | alla
+hematopoeetilised eellasrakud | | | üles | alla
+T rakud | | üles | | alla
+
+
+---
+## Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini
+
+[Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](cellcyclecancer.html)

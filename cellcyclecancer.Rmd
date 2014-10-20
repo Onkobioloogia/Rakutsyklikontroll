@@ -1,0 +1,60 @@
+---
+title: "Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini"
+output: html_document
+---
+
+
+
+Molekulaarne muutus | Kliiniline tulemus
+--------------------|--------------------
+**pRb muutused** |     ...                       
+Rb geeni mutatsioonid | retinoblastoom, osteosarkoom, väikserakuline kopsuvähk
+Rb geeni metülatsioon | ajukasvajad, mitmed teised
+pRB sekvesteerimine Id1/2 poolt | kartsinoomid, neuroblastoomid, melanoom
+pRB sekvesteerimine HPV E7 poolt | emakakaela kartsinoom
+**Tsükliinid** |       ...               
+tsükliin D1 geeni amplifikatsioon | rinna kartsinoom, leukeemia
+D1 geeni mitogeenne üle-ekspressioon | erinevad vähid
+D1 üle-ekspressioon tingitud GSK-3$\beta$ inhibeerimisest | erinevad vähid
+D3 geeni mitogeenne üle-ekspressioon | hematopoeetilised kasvajad
+tsükliin E üle-ekspressioon | rinna kartsinoom
+tsükliin E defektne degradatsioon tingituna hCDC4 funktsiooni kadumisest | endomeetriumi-, rinna- ja munasarja kartsinoomid
+**CDK muutused** | ...
+p15^INK4B^ deletsioon | erinevad vähid
+p16^INK4A^ deletsioon | erinevad vähid
+p16^INK4A^ promootori metülatsioon | melanoom, erinevad vähid
+p27^Kip1^ geeni transkriptsiooni inhibitsioon läbi PKB/Akt-FOXO TF | erinevad vähid
+p27^Kip1^ degradatsioon tingituna Skp2 üle-ekspressioonist | rinna-, käärsoole- ja kopsu kartsinoomid, lümfoomid
+p27^Kip1^ tsütoplasma lokalisatsioon tingituna PKB/Akt aktiivsusest | rinna-, söögitoru-, pärasoole-, kilpnäärme kartsinoomid
+p21^Cip1^ tsütoplasma lokalisatsioon tingituna PKB/Akt aktiivsusest | erinevad vähid
+**Erinevad Myc, N-myc või L-myc muutused** | ...
+Kõrgenenud Id1/2 ekspressioon, mis viib pRb sekvesteerimiseni | erinevad vähid
+Kõrgenenud tsükliin D2 ekspressioon ja pRb fosforülatsioon | erinevad vähid
+Kõrgenenud E2F1-3 ekspressioon, mis reguleerib ülesse tsükliin E | erinevad vähid
+Kõrgenenud CDK4 ekspressioon ja pRb fosforülatsioon | erinevad vähid
+Kõrgenenud Cul1 ekspressioon ja p27^Kip1^ degradatsioon | erinevad vähid
+p15^INK4B^ ja p21^Cip1^ geenide repressioon ja tõusnud pRb fosforülatsioon | erinevad vähid
+
+
+Rakutsükli muutused on kasvajates tavalised
+-------------------------------------------
+Pluss märk näitab et geen või selle produkt on muutunud vähemalt 10% kasvajatest. Geeni muutus võib olla mutatsioonid või promootori metülatsioon. Geeniprodukti muutus on aberrantne ekspressiooni puudumine või üle-ekspressioon. Üks kasvaja võib sisaldada rohkem kui ühte muutust.
+
+Kasvajatüüp | Rb | tsükliin E1 | tsükliin D1 | p16^INK4A^ | p27^Kip1^ | CDK4/6 | % vähke 1 või enama muutusega
+------------|-----|------------|--------------|-----------|------------|--------|----
+glioblastoom | + |+|  | + | + | +/+ | >80
+rinnakartsinoom| + |+| + | + | + | +/ | >80
+kopsu kartsinoom| + |+| + | + | + | +/ | >90
+kõhunäärme kartsinoom|  | |  |  | + |  | >80
+GI kartsinoom| + |+| + | + | + | +/ | >80
+enomeetriumi kartsinoom| + |+| + | + | + | +/ | >80
+kusepõie kartsinoom | + |+| + | + | + | | >70
+leukeemia| + |+| + | + | + | +/ | >90
+pea-kaela kartsinoom| + | | + | + | + | +/ | >90
+lümfoom| + |+| + | + | + | /+ | >90
+melanoom|   |+| + | + | + | +/ | >20
+hepatoom| + |+| + | + | + | +/ | >90
+eesnäärme kartsinoom| + |+| + | + | + | | >70
+testise/munasarja kartsinoom| + |+| + | + | + | +/ | >90
+osteosarkoom|   |+|   | + |   | +/ | >80
+muud sarkoomid |  |+| + | + | + | /+ | >90
