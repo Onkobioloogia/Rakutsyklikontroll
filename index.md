@@ -150,6 +150,14 @@ M-faasis toimub kromosoomide lahknemine
 <img src="http://www.sciencemag.org/content/300/5616/91/F3.large.jpg" alt="newt" style="width:460px;"/>
 <p style="font-size:12pt">Pilt: DOI: 10.1126/science.1082177</p>
 
+--- 
+## Rakutsükkel liigub ühes suunas
+
+- Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
+- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
+- Replikatsioon peab eelnema kromosoomide lahknemisele.
+- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
+
 ---
 ## Rakkude kasv vs jagunemine
 
@@ -161,15 +169,6 @@ M-faasis toimub kromosoomide lahknemine
 
 <img src="http://ars.els-cdn.com/content/image/1-s2.0-S0092867401003336-gr1.jpg" alt="tsc1" style="height:240px;"/>
 <p style="font-size:12pt">Mutation of Tsc1 Increases Cell and Organ Size. Source: DOI: 10.1016/S0092-8674(01)00333-6 </p>
-
---- 
-## Rakutsükli kontrollpunktid ehk *checkpoints*
-
-Raku *checkpoint controls* tagavad, et toimuks
-- Tuuma tsükli koordineerimine raku kasvu ja pooldumisega.
-- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
-- Replikatsioon peab eelnema kromosoomide lahknemisele.
-- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
 
 ---
 ## *Checkpoints*
@@ -368,7 +367,7 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
 - Ilma aktiivse tsükliin D-CDK4/6 pole rakutsükkel võimeline arenema läbi varase ja keskmise G1 faasi R-punktini.
 - Kui rakk on juba R-punkti läbinud pole enam D-CDK4/6 aktiivsus vajalik.
 - Peale R-punkti muutub rakk 'tundetuks' ka TGF-$\beta$ inhibeerivale toimele.
-- [CDKN2A/B lookus 9p21.3 on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3).
+- [CDKN2A/B lookuse naabruses asuv 9p21.3 lookus on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3).
 
 ---
 ## p21^Cip1 aktiveeritakse vastusena stressile

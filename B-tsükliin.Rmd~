@@ -1,0 +1,55 @@
+---
+title: "Tsükliinide avastamine"
+author: "Credit: Bernd Pulverer, Nature"
+date: "19.10.2014"
+output: ioslides_presentation
+---
+
+## MPF kannuskonnas ja merisiilikus
+
+- Aafrika kannuskonna (*Xenopus laevis*) ja merisiiliku meioosi uurimine 1970 ja 1980 aastatel 
+viis **MPF** faktori (*maturation-promoting factor*) kirjeldamiseni.
+
+## Tsükliinid
+- 1982 aastal avastasid Tim Hunt jt. merisiiliku valgusünteesi uurides valgud mis akumuleerusid tugevalt interfaasis ja mille tase langes kiiresti peale ootsüütide jagunemist. 
+- Nad nimetasid need ja teised sarnaselt käituvad rakutsüklis ostsilleeruvad valgud *tsükliinideks*.
+- Kõigepealt kirjeldati molekulmassist lähtuvalt kaks tsükliini - A ja B. 
+- Sarnasus MPF ja tsükliinide vahel oli silmatorkav.
+
+## Tsükliinid on universaalsed
+ 
+- Joan Ruderman jt. kloneerisid ja sekveneerisid 1986 aastal merekarbi tsükliin A.
+- Nad süstisid tsükliin A mRNA Xenopus ootsüüti ja leidsid see oli piisav ootsüüdi küpsemiseks.
+
+## Tsükliini süntees on vajalik rakutsükli töös hoidmiseks
+
+- Marc Kirschner ja Andrew Murray uurisid 1989 tsükliinide rolli Xenopuse raku ekstraktides. 
+- Põhinedes Yoshio Masui varasemalt läbi viidud tööl, lõid nad rakuvaba mudeli mis võis läbida kolm ja enam tsüklit.
+- Nad näitasid, et valgusüntees on vajalik in vitro rakutsüklite läbimiseks.
+- In vitro transkribeeritud merisiiliku tsükliin B mRNA taastas rakutsükli ekstraktides kus mRNA oli ensümaatiiselt lagundatud.
+- Samuti taastas tsükli in vitro transleeritud tsükliin B valk estraktides kus valgusüntees oli blokeeritud. 
+
+## Tsükliin B lagundamine on vajalik meioosist ja mitoosist väljumisel
+
+- Murray ja Kirschner genereerisid tsükliin B amino-terminaalse deletsioonimutandi, mis oli resistentne proteolüütilisele lagundamisele mitoosist väljumisel kuid aktiveeris MPF-i ja viis ekstraktid M faasi. 
+- See mutant arresteeris ekstrakti M faasi. 
+- Sama juhtus ka trunkeeritud tsükliini B süstimisel ootsüütidesse. 
+
+these findings demonstrated that cyclin is necessary for the appearance of MPF and that MPF disappears because of destruction of cyclin. Furthermore, they strongly suggested that the activity of MPF is intimately linked to a mitotic kinase activity whose oscillations share with MPF the same requirements for protein synthesis and degradation.
+
+
+## Tsükliin on otsene Cdc2 regulaator
+
+- Although MPF was first described in 1971, extensive purification of MPF from Xenopus eggs was not reported until 1988, when Maller and co-workers used a cell-free assay to monitor MPF activity ( Maller et al., 1977). For reasons that are still unclear, this required ATP-γS, a reagent used to thiophosphorylate proteins and protect them against phosphatases. The most highly purified preparation contained two major proteins of mass 32 kDa and 45 kDa, and displayed protein kinase activity ( Lohka et al., 1988).
+
+- The major 32 kDa protein could be the Xenopus homolog of Cdc2, a protein kinase required for mitosis in fission yeast, which had been previously shown by functional complementation of mutants to be conserved from yeast to humans ( Lee and Nurse, 1987).
+
+## Refs
+
+- Evans, T., Rosenthal, E. T., Youngblom, J., Distel, D. & Hunt, T. Cyclin: a protein specified by maternal mRNA in sea urchin eggs that is destroyed at each cleavage division. Cell 33, 389-396 (1983)
+
+- Swenson, K. I., Farrell, K. M. & Ruderman, J. V. The clam embryo protein cyclin A induces entry into M phase and the resumption of meiosis in Xenopus oocytes. Cell 47, 861-870 (1986)
+
+- Murray, A. W. & Kirschner, M. W. Cyclin synthesis drives the early embryonic cell cycle. Nature 339, 275-280 (1989)
+
+- Murray, A. W., Solomon, M. J. & Kirschner, M. W. The role of cyclin synthesis and degradation in the control of maturation promoting factor activity. Nature 339, 280-286 (1989)
