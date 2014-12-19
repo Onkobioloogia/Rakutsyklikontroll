@@ -67,6 +67,7 @@ strong {
 
 
 --- .segue .dark .nobackground
+
 ## Rakutsükkel
 
 --- &div .masthead
@@ -74,6 +75,7 @@ strong {
 http://tpall.github.io/Rakutsyklikontroll
 
 ---
+
 ## Rakutsükkel
 
 - Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks.
@@ -83,6 +85,7 @@ http://tpall.github.io/Rakutsyklikontroll
 - Mittejagunev rakk on vaikeolekus (*quiescence*) ehk **G0** faasis.
 
 ---
+
 ## Rakutsükli käivitamist reguleerivad rakuvälised signaalid
 
 - Eksponentsiaalselt kasvav imetajarakk peab peale igat raku jagunemist otsustama, 
@@ -91,6 +94,7 @@ http://tpall.github.io/Rakutsyklikontroll
 - Seda otsust mõjutavad mitogeensed kasvufaktorid - kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse.
 
 ---
+
 ## Rakutsükli käivitamist reguleerivad rakuvälised signaalid
 
 Keskkonna signaalid, mis rakku jagunema/mittejagunema mõjutavad, pärinevad erinevatest allikatest:
@@ -101,6 +105,7 @@ Keskkonna signaalid, mis rakku jagunema/mittejagunema mõjutavad, pärinevad eri
 - toitainestaatus.
 
 ---
+
 ## Ka rakutsüklist väljumist reguleerivad rakuvälised signaalid
 
 Ka raku vaikeolekuse minek võib olla aktiivselt reguleeritud.
@@ -110,6 +115,7 @@ Ka raku vaikeolekuse minek võib olla aktiivselt reguleeritud.
 - Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **post-mitootilisteks**, nt. neuronid.
 
 ---&twocol
+
 ## Rakutsükli faasid
 
 Rakutsüklis on neli üksteisele järgnevat faasi:
@@ -127,9 +133,10 @@ Rakutsüklis on neli üksteisele järgnevat faasi:
 
 ***=right
 
-<img src="mitosis3_1.png" alt="cell cycle" style="width:400px;"/>
+<img src="assets/img/mitosis3_1.png" alt="cell cycle" style="width:400px;"/>
 
 ---&twocol
+
 ## Mitoosi faasid
 
 ***=left
@@ -148,9 +155,11 @@ M-faasis toimub kromosoomide lahknemine
 **Mitoosi faasid vesiliku kopsurakus**
 
 <img src="http://www.sciencemag.org/content/300/5616/91/F3.large.jpg" alt="newt" style="width:460px;"/>
-<p style="font-size:12pt">Pilt: DOI: 10.1126/science.1082177</p>
+
+<footer class="source">Pilt: DOI: 10.1126/science.1082177</footer>
 
 --- 
+
 ## Rakutsükkel liigub ühes suunas
 
 - Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
@@ -159,6 +168,7 @@ M-faasis toimub kromosoomide lahknemine
 - Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
 
 ---
+
 ## Rakkude kasv vs jagunemine
 
 - Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks.
@@ -168,9 +178,11 @@ M-faasis toimub kromosoomide lahknemine
 - Rakkude kasv toimub G1 faasis.
 
 <img src="http://ars.els-cdn.com/content/image/1-s2.0-S0092867401003336-gr1.jpg" alt="tsc1" style="height:240px;"/>
-<p style="font-size:12pt">Mutation of Tsc1 Increases Cell and Organ Size. Source: DOI: 10.1016/S0092-8674(01)00333-6 </p>
+
+<footer class="source">Mutation of Tsc1 Increases Cell and Organ Size. Source: DOI: 10.1016/S0092-8674(01)00333-6 </footer>
 
 ---
+
 ## *Checkpoints*
 
 - G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane.
@@ -179,7 +191,8 @@ M-faasis toimub kromosoomide lahknemine
 - M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud.
 - eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
 
---- &twocol bg:LightCyan
+--- &twocol
+
 ## Rad17: genoomi replitseeritakse ainult üks kord 
 
 Rad17 sensorvalgu fosfrüleerimine ATRi poolt on vajalik DNA-kahjustuste poolt indutseeriud G2-faasi blokiks.
@@ -194,7 +207,8 @@ Komosoomi aberratioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
 
 ![rad17](http://genesdev.cshlp.org/content/17/8/965/F4.medium.gif)
 
----&twocol bg:LightCyan
+---&twocol
+
 ## ATR replikatsiooni *check*
 
 ***=right
@@ -205,9 +219,10 @@ Komosoomi aberratioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
 
 ***=left
 
-![](1-s2.0-S0092867402011133-gr5.jpg)
+![](assets/img/1-s2.0-S0092867402011133-gr5.jpg)
 
----&twocol bg:LightCyan
+---&twocol
+
 ## BUB1: käävi kontrollpunkt
 
 **Käävi kontrollpunkt (*spindle assembly checkpoint*, SAC) hoiab ära aneuploidia tekke.**
@@ -222,9 +237,10 @@ Komosoomi aberratioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
 See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6. 
 
 
-<img src="F5.large.jpg" alt="bub1" style="width:500px;"/>
+<img src="assets/img/F5.large.jpg" alt="bub1" style="width:500px;"/>
 
 ---
+
 ## G1 restriktsioonipunkt
 
 **Tagab mitogeense kontrolli rakutsükli kulgemise üle.** 
@@ -234,6 +250,7 @@ See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.
 - Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest.
 
 ---
+
 ## Embrüonaalsed tüvirakud
 
 - ES rakkudel ei ole restriktsioonipunkti.
@@ -244,9 +261,10 @@ See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.
 
 <img src="http://www.nature.com/nature/journal/v432/n7015/images/nature03094-f1.2.jpg" style="height:270px;"/>
 
-<p style="font-size:10pt">Pilt: G1 cell-cycle control and cancer. Joan Massagué. Nature 432, 298-306(18 November 2004). doi:10.1038/nature03094</p>
+<footer class="source">Pilt: G1 cell-cycle control and cancer. Joan Massagué. Nature 432, 298-306(18 November 2004). doi:10.1038/nature03094</footer>
 
 ---
+
 ## Ka rakutsükli masinavärki reguleerivad kinaasid
 
 Rakutsükli kinaaside (**CDK**) substraadid:
@@ -256,8 +274,8 @@ Rakutsükli kinaaside (**CDK**) substraadid:
 - *Histoonide* fosforüleerimine S ja M faasis kromatiini kondenseerumiseks.
 - Tuumamebraani valkude (*Lamiin*) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis.
 
-
 ---
+
 ## Rakutsükli kinaasid (CDK)
 
 - CDK on Ser/tre-kinaasid.
@@ -266,10 +284,12 @@ Rakutsükli kinaaside (**CDK**) substraadid:
     - tsükliin E + CDK2 kompleksi kinaasne aktiivsus tõuseb 400000 korda.
 - Tsükliinid tagavad ka substraat spetsiifilisuse.
 
-<img src="A-CDK2anno.png" alt="a-cdk2" style="width:400px;"/>
-<p style="font-size:12pt">Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Jeffrey, P.D.,  Russo, A.A.,  Polyak, K.,  Gibbs, E.,  Hurwitz, J.,  Massague, J.,  Pavletich, N.P. (1995) Nature 376: 313-320</p>
+<img src="assets/img/A-CDK2anno.png" alt="a-cdk2" style="width:400px;"/>
+
+<footer class="source">Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Jeffrey, P.D.,  Russo, A.A.,  Polyak, K.,  Gibbs, E.,  Hurwitz, J.,  Massague, J.,  Pavletich, N.P. (1995) Nature 376: 313-320</footer>
 
 --- &twocol
+
 ## Iga tsükliin paardub kindla kinaasiga kindlas rakusükli faasis
  
 ***=left
@@ -287,6 +307,7 @@ CDC2 (CDK1) | A | S/G2
 CDC2 | B | M
 
 ---
+
 ## Tsükliinide hulk rakus muutub rakutsükli käigus
 
 - Tsükliine kontrollitakse läbi proteolüütilise lagundamise.
@@ -297,6 +318,7 @@ CDC2 | B | M
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cyclin_Expression.svg/1280px-Cyclin_Expression.svg.png)
 
 ---
+
 ## Erinevad mitogeensed rajad konvergeeruvad tsükliin D regulatsioonil
 
 Kasvufaktorid stimuleerivad kiire tsükliin D taseme tõusu rakus, samuti kasvufaktorite 'ära võtmine' koekultuuri tingimustes viib tsükliin D lagundamiseni (poolestuseg ~30 min).
@@ -310,6 +332,7 @@ Kasvufaktorite rajad mis kontrollivad tsükliin D ekspressiooni:
 - Erinevad ligandid $\rightarrow$ erinevad retseptorid $\rightarrow$ IKK $\rightarrow$ **NF-$\kappa$B** $\rightarrow$ D1
 
 ---
+
 ## Kolme D-tüüpi tsükliini induktsioonimuster erineb
 
 Signaali allikas | Signaalirada | D tsükliini isovorm
@@ -328,6 +351,7 @@ IL-5 retseptor | STAT3/5 | D**3**
  | E2F transkriptsiooni faktorid | D**3**
 
 ---
+
 ## Tsükliin D1 regulatsiooni mehhnismid
 
 GF-Ras-Raf-Erk ja Wnt signaalirada kontrollib tsükliin D1 ekspressiooni ning stabiilsust ja GSK3$\beta$ on siin negatiivne regulaator.
@@ -340,12 +364,14 @@ GF-Ras-Raf-Erk ja Wnt signaalirada kontrollib tsükliin D1 ekspressiooni ning st
     - lisaks kontrollib GSK3$\beta$ p27Kip1 degradatsiooni.
 
 ---
+
 ## Tsükliin D-CDK4/6 lükkavad raku läbi Restriktsiooni-punkti
 
 - Rakud vastvad rakuvälistele mitogeensetele signaalidele kuni R-punktini.
 - **Peale R-punkti läbimist on tsükliinide E $\rightarrow$ A $\rightarrow$ B regulatsioon automaatne ja autonoomne.**
 
 ---
+
 ## Lisaks tsükliinidele reguleerivad tsükliin-sõltuvaid kinaase ka CDK inhibiitorid (CdkI)
 
 Praeguseks on kirjeldatud seitse erinevat CdkI-d.
@@ -353,13 +379,13 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
     - **p16^INK4A** , p15^INK4B , p18^INK4C , p19^INK4D .
 - **p21^Cip1** , **p27^Kip1** , p57^Kip2 : inhibeerivad kõiki teisi tsükliin-CDK komplekse.
 
-<img src="p16-p27mech.png" style="width:600px;" />
+<img src="assets/img/p16-p27mech.png" style="width:600px;" />
 
-<p style="font-size:8pt">Crystal structure of the p27Kip1 cyclin-dependent-kinase inhibitor bound to the cyclin A-Cdk2 complex. Russo, A.A.,  Jeffrey, P.D.,  Patten, A.K.,  Massague, J.,  Pavletich, N.P. (1996) Nature 382: 325-331</p>
-<p style="font-size:8pt">Structural basis for inhibition of the cyclin-dependent kinase Cdk6 by the tumour suppressor p16INK4a. Russo, A.A.,  Tong, L.,  Lee, J.O.,  Jeffrey, P.D.,  Pavletich, N.P. (1998) Nature 395: 237-243.</p>
+<footer class="source">Crystal structure of the p27Kip1 cyclin-dependent-kinase inhibitor bound to the cyclin A-Cdk2 complex. Russo, A.A.,  Jeffrey, P.D.,  Patten, A.K.,  Massague, J.,  Pavletich, N.P. (1996) Nature 382: 325-331. Structural basis for inhibition of the cyclin-dependent kinase Cdk6 by the tumour suppressor p16INK4a. Russo, A.A.,  Tong, L.,  Lee, J.O.,  Jeffrey, P.D.,  Pavletich, N.P. (1998) Nature 395: 237-243.</footer>
 
 
 ---
+
 ## TGF-$\beta$ indutseerib p15^INK4B
 
 - **TGF-$\beta$ peamine raku jagunemist pidurdav mehhanism töötab läbi p15^INK4B**.
@@ -370,6 +396,7 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
 - [CDKN2A/B lookuse naabruses asuv 9p21.3 lookus on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3).
 
 ---
+
 ## p21^Cip1 aktiveeritakse vastusena stressile
 
 - p21^Cip1 toimib läbi terve rakutsükli.
@@ -380,9 +407,11 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
 - p21^Cip1 inhibeerib ka DNA replikatsiooni masinavärgi valku PCNA (*proliferating cell nuclear antigen*).
 
 <img src="http://www-bioc.rice.edu/~shamoo/threeclamps.jpg" style="width:400px;" />
-<p style="font-size:12pt">Pilt: p21 (A, punane) blokeerib PCNA-l (sliding clamp) DNA polümeraasi seostumiskoha (B, C). http://www-bioc.rice.edu </p>
+
+<footer class="source">Pilt: p21 (A, punane) blokeerib PCNA-l (sliding clamp) DNA polümeraasi seostumiskoha (B, C). http://www-bioc.rice.edu </footer>
 
 ---
+
 ## Mitogeenne signalisatsioon inhibeerib p21Cip1 ja p27Kip1
 
 **PKB/Akt inhibeerib p21Cip1 ja p27Kip1 tuuma lokalisatsiooni**.
@@ -395,6 +424,7 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
 - Tsütoplasmaatiline p27 korreleerub halva prognoosiga.
 
 ---&twocol
+
 ## p21Cip1 ja p27Kip1 seostumine on vajalik D-CDK4/6 aktivatsiooniks
 
 ***=left
@@ -411,6 +441,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://emboj.embopress.org/content/embojnl/18/6/1571/F8.large.jpg" style="width:360px;" />
 
 ---&twocol
+
 ## RB fosforülatsioon reguleerib restriktsioonipunkti läbimist
 
 ***=right
@@ -425,6 +456,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://blogs.shu.edu/cancer/files/2014/08/figure_08_19-1024x903.jpg" style="width:400px;" />
 
 ---
+
 ## RB valgud ehk 'taskuvalgud' (*pocketproteins*)
 
 - RB, p107 ja p130 moodustavad 'taskuvalkude' perekonna.
@@ -433,9 +465,11 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 - RB omab tugevat tuumorsupresorfunktsiooni ja p107/p130 mutatsioonid on vähkides harvad.
 
 <img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-i2.jpg" style="width:400px;" />
-<p style="font-size:8pt">Molecular mechanisms underlying RB protein function. Frederick A. Dick & Seth M. Rubin. Nature Reviews Molecular Cell Biology 14, 297-306 (May 2013) doi:10.1038/nrm3567</p>
+
+<footer class="source">Molecular mechanisms underlying RB protein function. Frederick A. Dick & Seth M. Rubin. Nature Reviews Molecular Cell Biology 14, 297-306 (May 2013) doi:10.1038/nrm3567</footer>
 
 ---
+
 ## Imetajate E2F TF perekond.
 
 - Kaheksa geeni E2F1-8, kolm toimivad aktivaatoritena (E2F1-3a) ja ülejäänud repressoritena (E2F3b-8).
@@ -446,6 +480,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://cancer.osu.edu/about/publications/PublishingImages/Frontiers%20Winter%202011/RB%20regulation%20illustration.jpg" style="width:400px;" />
 
 ---&twocol
+
 ## RB valgud toimivad läbi E2F
 
 - Hüpofosforüleeritud pRB seostumine maskeerib aktivaatoritel transkriptsiooni aktivatsiooni domääni.
@@ -463,6 +498,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f2.jpg" style="width:400px;" />
 
 ---
+
 ## pRB valkude E2F TF seostumiskoht on konserveerunud
 
 ![e2f2rb](http://genesdev.cshlp.org/content/16/24/3199/F3.large.jpg)
@@ -472,6 +508,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 - HPV E7 valgu seostumine RB-le rikub 'tasku' konformatsiooni nii, et see ei saa enam siduda E2F valke.
 
 ---
+
 ## Transkriptsioonist sõltumatu RB rakutsükli regulatsioon
 
 **RB stabiliseerib p27Kip1**. 
@@ -483,6 +520,7 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f3.jpg" style="width:360px;" />
 
 ---
+
 ## pRB hüperfosforüleerimist võimendab positiivne tagasiside
 
 G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid.
@@ -490,6 +528,7 @@ G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid.
 - **p27Kip1 on tsükliin E-CDK2 substraat** ning fosfo-p27 määratakse ubikvitiin-proteasoomsele lagundamisele.
 
 ---
+
 ## Vähis mitmeid strateegiaid RB funktsiooni tasalülitamiseks, MYC
 
 - RB geeni mutatsioonid retinoblastoomis, osteosarkoomis ja väikserakulistes kopsukasvajates.
@@ -501,6 +540,7 @@ G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid.
 - **Myc-Miz1 heterodimeer inhibeerib aga p15^INK4B ning p21Cip1, p27Kip1 transkriptsiooni**.
 
 ---
+
 ## Normaalselt TGF-$\beta$ supresseerib Myc ekspressiooni
 
 Võttes arvesse Myc-i võimet p15^INK4B ekspressioon kinni panna ja seega TGF-$\beta$ jagunemist kontrolliv mõju nullida, siis
@@ -518,24 +558,37 @@ T rakud | | üles | | alla
 
 
 ---
+
 ## Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini
 
 [Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](cellcyclecancer.html)
 
 
----
-## Lingid eelmistele loengutele
+--- .segue .dark .nobackground
 
-1. [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
+## Lingid teistele loengutele
 
-2. [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+--- &twocol 
 
-3. [Onkoviirused](http://tpall.github.io/Onkoviirused)
+***=left 
 
-4. [Onkogeenid](http://tpall.github.io/Onkogeenid)
+- [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
+- [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+- [Onkoviirused](http://tpall.github.io/Onkoviirused)
+- [Onkogeenid](http://tpall.github.io/Onkogeenid)
+- [Retseptorid](http://tpall.github.io/Retseptorid)
+- [Signaalirajad](http://tpall.github.io/Signaalirajad)
+- [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
+- [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
 
-5. [Retseptorid](http://tpall.github.io/Retseptorid)
 
-6. [Signaalirajad](http://tpall.github.io/Signaalirajad)
+***=right 
 
-7. [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
+- [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
+- [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
+- [Tumorigenees](http://tpall.github.io/Tumorigenees)
+- [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
+- [Mikrokeskkond](http://tpall.github.io/Mikrokeskkond)
+- [Metastaasid](http://tpall.github.io/Metastaas)
+- [Immuunsus](http://tpall.github.io/Immuunsus)
+- [Vähiravimid](http://tpall.github.io/Vahiravim)
