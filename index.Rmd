@@ -2,7 +2,7 @@
 title       : Rakutsükli kontroll
 subtitle    : Onkobioloogia
 author      : Taavi Päll
-job         : vanemteadur, VTAK
+job         : lektor, Tallinna Tehnikaülikool
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -20,8 +20,12 @@ img {
 </style>
 
 <style> .title-slide {
-  background-color: #FFFFFF; /*#CBE7A5 #EDE0CF; ; #CA9F9D*/
-}
+  background-image:url(http://www.nature.com/nrc/journal/v4/n3/images/nrc1297-f2.jpg); 
+  background-repeat: no-repeat; 
+  background-position: 90% 25%; 
+  background-size: 45%; 
+  background-color: #FFFFFF
+  }
 
 .title-slide hgroup > h1{
  font-family: 'Oswald', 'Helvetica', sanserif; 
@@ -60,14 +64,13 @@ strong {
 
 
 ---
-## Tuumorsupressorgeenid
+## Tuumor-suppressor geenid
 
 >**Tuumor-suppressor geen**, või **anti-onkogeen**, on geen mis hoiab ära raku transformatsiooni. Kui see geen muteerub rakus ja tema funktsioon kaob või väheneb, siis võib see rakk areneda vähiks. Tavaliselt on vaja ka teisi onkogeenseid lisamuutusi  (Wikipedia).
 
 
 
 --- .segue .dark .nobackground
-
 ## Rakutsükkel
 
 --- &div .masthead
@@ -75,47 +78,40 @@ strong {
 http://tpall.github.io/Rakutsyklikontroll
 
 ---
-
 ## Rakutsükkel
 
-- Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks.
+- Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks
 - Rakutsüklit kontrolliv 'masinavärk' on universaalne kõigis organismi rakutüüpides.
-- Raku rakutsüklisse sisenemist ja 'masinavärgi käivitamist' reguleerivad raku väliskeskkonna signaalid.
-- Rakutsüklis on neli järjestikust faasi **G1** $\rightarrow$ **S** $\rightarrow$ **G2** $\rightarrow$ **M**.
-- Mittejagunev rakk on vaikeolekus (*quiescence*) ehk **G0** faasis.
+- Raku rakutsüklisse sisenemist ja 'masinavärgi käivitamist' reguleerivad raku väliskeskkonna signaalid
 
 ---
-
 ## Rakutsükli käivitamist reguleerivad rakuvälised signaalid
 
 - Eksponentsiaalselt kasvav imetajarakk peab peale igat raku jagunemist otsustama, 
     - kas kasvada ja jaguneda veel üks tsükkel või 
-    - jääda vaikeolekusse.
-- Seda otsust mõjutavad mitogeensed kasvufaktorid - kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse.
+    - jääda vaikeolekusse
+- Seda otsust mõjutavad mitogeensed kasvufaktorid - kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse
 
 ---
-
 ## Rakutsükli käivitamist reguleerivad rakuvälised signaalid
 
 Keskkonna signaalid, mis rakku jagunema/mittejagunema mõjutavad, pärinevad erinevatest allikatest:
 
-- türosiin kinaas retseptorid (mitogeenid),
-- G-valk retseptorid (GPCR),
-- TGF-$\beta$ retseptorid,
-- toitainestaatus.
+- türosiin kinaas retseptorid (mitogeenid)
+- G-valk retseptorid (GPCR)
+- TGF-$\beta$ retseptorid
+- toitainestaatus
 
 ---
-
 ## Ka rakutsüklist väljumist reguleerivad rakuvälised signaalid
 
 Ka raku vaikeolekuse minek võib olla aktiivselt reguleeritud.
 
-- TGF-$\beta$ on üks prominentsemaid anti-mitogeene (tuumorsupressorgeen SMAD4 18q21.2!).
-- Vaikeolek on rakkudel enamasti pöörduv.
-- Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **post-mitootilisteks**, nt. neuronid.
+- TGF-$\beta$ on üks kesksemaid anti-mitogeene
+- Vaikeolek on rakkudel enamasti pöörduv
+- Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **post-mitootilisteks**, nt. neuronid
 
 ---&twocol
-
 ## Rakutsükli faasid
 
 Rakutsüklis on neli üksteisele järgnevat faasi:
@@ -123,11 +119,11 @@ Rakutsüklis on neli üksteisele järgnevat faasi:
 ***=left
 
 - **G1** algab peale mitoosi ja kestab kuni DNA replikatsiooni alguseni S faasis,
-    - rakk kasvab ja valmistub sisenema S faasi.
-- **S-faas**is toimub genoomse DNA süntees.
-- **G2 faas** on intervall DNA sünteesi eduka lõpu ja mitoosis toimuva kromosoomide lahknemise vahel,
-    - suhteliselt lühike,
-    - mitoosis vajalike valkude süntees.
+    - rakk kasvab ja valmistub sisenema S faasi
+- **S-faas**is toimub genoomse DNA süntees
+- **G2 faas** on intervall DNA sünteesi eduka lõpu ja mitoosis toimuva kromosoomide lahknemise vahel
+    - suhteliselt lühike
+    - mitoosis vajalike valkude süntees
 - **M-faas** mitoos.
 
 
@@ -136,19 +132,18 @@ Rakutsüklis on neli üksteisele järgnevat faasi:
 <img src="assets/img/mitosis3_1.png" alt="cell cycle" style="width:400px;"/>
 
 ---&twocol
-
 ## Mitoosi faasid
 
 ***=left
 
 M-faasis toimub kromosoomide lahknemine
 
-- **Profaasis** toimub kromosoomide kondenseerumine.
-      - Moodustub **mitoosikääv**.
-- **Metafaasis** joonduvad õdekromatiidid.
-- **Anafaasis** toimub õdekromatiidide lahknemine poolustele.
-- **Telofaasis** moodustub uuesti tuumamembraan ja tuum.
-- **Tsütokinees**: moodustub kaks tütarrakku.
+- **Profaasis** toimub kromosoomide kondenseerumine
+      - Moodustub **mitoosikääv**
+- **Metafaasis** joonduvad õdekromatiidid
+- **Anafaasis** toimub õdekromatiidide lahknemine poolustele
+- **Telofaasis** moodustub uuesti tuumamembraan ja tuum
+- **Tsütokinees**: moodustub kaks tütarrakku
 
 ***=right
 
@@ -159,43 +154,39 @@ M-faasis toimub kromosoomide lahknemine
 <footer class="source">Pilt: DOI: 10.1126/science.1082177</footer>
 
 --- 
-
 ## Rakutsükkel liigub ühes suunas
 
-- Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
-- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
-- Replikatsioon peab eelnema kromosoomide lahknemisele.
-- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
+- Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega
+- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul
+- Replikatsioon peab eelnema kromosoomide lahknemisele
+- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist
 
 ---
-
 ## Rakkude kasv vs jagunemine
 
-- Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks.
-- Selleks peab rakk 'kahekordistama' oma suuruse.
-- Pärmi katsed on näidanud, et **raku suurus valitseb rakutsükli üle: väikesed rakud ei jagune**.
+- Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks
+- Selleks peab rakk 'kahekordistama' oma suuruse
+- Pärmi katsed on näidanud, et **raku suurus valitseb rakutsükli üle: väikesed rakud ei jagune**
 - Mutatsioonid mis kiirendavad rakutsükli kulgu põhjustavad väiksemate rakkude tekke.
-- Rakkude kasv toimub G1 faasis.
+- Rakkude kasv toimub G1 faasis
 
 <img src="http://ars.els-cdn.com/content/image/1-s2.0-S0092867401003336-gr1.jpg" alt="tsc1" style="height:240px;"/>
 
 <footer class="source">Mutation of Tsc1 Increases Cell and Organ Size. Source: DOI: 10.1016/S0092-8674(01)00333-6 </footer>
 
 ---
+## Rakutsükli kontrollpunktid, *checkpoints*
 
-## *Checkpoints*
-
-- G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane.
+- G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane
 - S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.
-- G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud. 
-- M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud.
-- eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
+- G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud
+- M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud
+- eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'
 
 --- &twocol
-
 ## Rad17: genoomi replitseeritakse ainult üks kord 
 
-Rad17 sensorvalgu fosfrüleerimine ATRi poolt on vajalik DNA-kahjustuste poolt indutseeriud G2-faasi blokiks.
+Rad17 sensorvalgu fosfrüleerimine ATRi poolt on vajalik DNA-kahjustuste poolt indutseeriud G2-faasi blokiks
 
 ***=left
 
@@ -208,24 +199,22 @@ Komosoomi aberratioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
 ![rad17](http://genesdev.cshlp.org/content/17/8/965/F4.medium.gif)
 
 ---&twocol
-
 ## ATR replikatsiooni *check*
 
 ***=right
 
-- Seriin-treoniin kinaas ATR tagab fragiilsete saitide stabiilsuse. 
-- **ATR aktiveeritakse vastuseks üheahelalisele DNA-le.** 
-- Aktiveeritud ATR fosforüleerib CHK1 kinaasi ja käivitatakse signaalirada mis viib rakutsükli blokini.
+- Seriin-treoniin kinaas ATR tagab fragiilsete saitide stabiilsuse
+- **ATR aktiveeritakse vastuseks üheahelalisele DNA-le** 
+- Aktiveeritud ATR fosforüleerib CHK1 kinaasi ja käivitatakse signaalirada mis viib rakutsükli blokini
 
 ***=left
 
 ![](assets/img/1-s2.0-S0092867402011133-gr5.jpg)
 
 ---&twocol
-
 ## BUB1: käävi kontrollpunkt
 
-**Käävi kontrollpunkt (*spindle assembly checkpoint*, SAC) hoiab ära aneuploidia tekke.**
+**Käävi kontrollpunkt (*spindle assembly checkpoint*, SAC) hoiab ära aneuploidia tekke**
 
 ***=left
 
@@ -234,30 +223,28 @@ Komosoomi aberratioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
 
 ***=right
 
-See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6. 
+See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.
 
 
 <img src="assets/img/F5.large.jpg" alt="bub1" style="width:500px;"/>
 
 ---
-
 ## G1 restriktsioonipunkt
 
-**Tagab mitogeense kontrolli rakutsükli kulgemise üle.** 
+**Tagab mitogeense kontrolli rakutsükli kulgemise üle** 
 
 - Varases- ja keskmises G1 faasis on S-faasi sisenemine seerum sõltuv.
     - Samuti on rakud tundlikud TGF-$\beta$ anti-mitogeensele toimele.
-- Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest.
+- Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest
 
 ---
-
 ## Embrüonaalsed tüvirakud
 
-- ES rakkudel ei ole restriktsioonipunkti.
-- Varases embrüogeneesis ja ES rakkudel koosneb rakutsükkel ainult G1 ja S-faasist.
-- ES rakud jagunevad autonoomselt.
-- Embrüonaalsed tüvirakud jagunevad sümmeetriliselt - tekib kaks identset tütar rakku.
-- Diferentseerumise surub alla LIF (*Leukaemia inhibitory factor*) läbi Jak-STAT3 signalisatsiooni.
+- ES rakkudel ei ole restriktsioonipunkti
+- Varases embrüogeneesis ja ES rakkudel koosneb rakutsükkel ainult G1 ja S-faasist
+- ES rakud jagunevad autonoomselt
+- Embrüonaalsed tüvirakud jagunevad sümmeetriliselt - tekib kaks identset tütar rakku
+- Diferentseerumise surub alla LIF (*Leukaemia inhibitory factor*) läbi Jak-STAT3 signalisatsiooni
 
 <img src="http://www.nature.com/nature/journal/v432/n7015/images/nature03094-f1.2.jpg" style="height:270px;"/>
 
@@ -269,27 +256,25 @@ See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.
 
 Rakutsükli kinaaside (**CDK**) substraadid:
 
-- Tsentrosoomi valke (*CP110*) fosforüleeritakse G1/S üleminekul tsentrosoomi duplitseerumiseks.
-- Enne S-faasi aktiveeritakse replikatsioonikompleks (*Treslin*).
-- *Histoonide* fosforüleerimine S ja M faasis kromatiini kondenseerumiseks.
-- Tuumamebraani valkude (*Lamiin*) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis.
+- Tsentrosoomi valke (*CP110*) fosforüleeritakse G1/S üleminekul tsentrosoomi duplitseerumiseks
+- Enne S-faasi aktiveeritakse replikatsioonikompleks (*Treslin*)
+- *Histoonide* fosforüleerimine S ja M faasis kromatiini kondenseerumiseks
+- Tuumamebraani valkude (*Lamiin*) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis
 
 ---
-
 ## Rakutsükli kinaasid (CDK)
 
-- CDK on Ser/tre-kinaasid.
-- 40% aa järjestusest identsed.
-- **CDK aktiveerub seostumisel tsükliiniga**.
-    - tsükliin E + CDK2 kompleksi kinaasne aktiivsus tõuseb 400000 korda.
-- Tsükliinid tagavad ka substraat spetsiifilisuse.
+- CDK on Ser/tre-kinaasid
+- 40% aa järjestusest identsed
+- **CDK aktiveerub seostumisel tsükliiniga**
+    - tsükliin E + CDK2 kompleksi kinaasne aktiivsus tõuseb 400000 korda
+- Tsükliinid tagavad ka substraat spetsiifilisuse
 
 <img src="assets/img/A-CDK2anno.png" alt="a-cdk2" style="width:400px;"/>
 
 <footer class="source">Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Jeffrey, P.D.,  Russo, A.A.,  Polyak, K.,  Gibbs, E.,  Hurwitz, J.,  Massague, J.,  Pavletich, N.P. (1995) Nature 376: 313-320</footer>
 
 --- &twocol
-
 ## Iga tsükliin paardub kindla kinaasiga kindlas rakusükli faasis
  
 ***=left
@@ -300,20 +285,19 @@ Rakutsükli kinaaside (**CDK**) substraadid:
 
 Tsükliini kinaas | Tsükliin | Rakutsükli faas
 -----------------|---------|----------------
-CDK4/6 | D1, D2, D3 | G1
-CDK2 | E1, E2 | S
+CDK4/6 | D1, D2, D3 | varane G1
+CDK2 | E1, E2 | hiline G1, G1/S üleminek
 CDK2 | A | S
 CDC2 (CDK1) | A | S/G2
 CDC2 | B | M
 
 ---
-
 ## Tsükliinide hulk rakus muutub rakutsükli käigus
 
-- Tsükliine kontrollitakse läbi proteolüütilise lagundamise.
-- Tsükliini järkjärguline tõus ja kiire lagundamine tagab rakutsükli 'hammasrataste' liikumise ühes sunas.
-- **D-tsükliinid erinevad: nende puhu ei toimu järske kõikumisi rakutsükli käigus.**
-- **D-tsükliinid on reguleeritud mitogeensete sinaalide poolt.**
+- Tsükliine kontrollitakse läbi proteolüütilise lagundamise
+- Tsükliini järkjärguline tõus ja kiire lagundamine tagab rakutsükli 'hammasrataste' liikumise ühes sunas
+- **D-tsükliinid erinevad: nende puhu ei toimu järske kõikumisi rakutsükli käigus**
+- **D-tsükliinid on reguleeritud mitogeensete sinaalide poolt**
 
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cyclin_Expression.svg/1280px-Cyclin_Expression.svg.png)
 
@@ -321,7 +305,7 @@ CDC2 | B | M
 
 ## Erinevad mitogeensed rajad konvergeeruvad tsükliin D regulatsioonil
 
-Kasvufaktorid stimuleerivad kiire tsükliin D taseme tõusu rakus, samuti kasvufaktorite 'ära võtmine' koekultuuri tingimustes viib tsükliin D lagundamiseni (poolestuseg ~30 min).
+Kasvufaktorid stimuleerivad kiire tsükliin D taseme tõusu rakus, samuti kasvufaktorite 'ära võtmine' koekultuuri tingimustes viib tsükliin D lagundamiseni (poolestuseg ~30 min)
 
 Kasvufaktorite rajad mis kontrollivad tsükliin D ekspressiooni:
 - GF $\rightarrow$ **türosiin kinaas reseptorid** $\rightarrow$ Ras $\rightarrow$ Raf/RalGDS $\rightarrow$ Fos/Jun $\rightarrow$ D1
@@ -332,7 +316,6 @@ Kasvufaktorite rajad mis kontrollivad tsükliin D ekspressiooni:
 - Erinevad ligandid $\rightarrow$ erinevad retseptorid $\rightarrow$ IKK $\rightarrow$ **NF-$\kappa$B** $\rightarrow$ D1
 
 ---
-
 ## Kolme D-tüüpi tsükliini induktsioonimuster erineb
 
 Signaali allikas | Signaalirada | D tsükliini isovorm
@@ -351,33 +334,30 @@ IL-5 retseptor | STAT3/5 | D**3**
  | E2F transkriptsiooni faktorid | D**3**
 
 ---
-
-## Tsükliin D1 regulatsiooni mehhnismid
+## Tsükliin D1 regulatsiooni mehhanismid
 
 GF-Ras-Raf-Erk ja Wnt signaalirada kontrollib tsükliin D1 ekspressiooni ning stabiilsust ja GSK3$\beta$ on siin negatiivne regulaator.
 
-- Stabiilne 5–6 tundi kestev ERK signalisatsioon indutseerib tsükliin D1 ekspressiooni kesk-G1 faasis (~8–9 tundi peale mitogeense stimulatsiooni algust vaikeolekus rakkudes).
-- PI3-kinaas/Akt fosforüleerib glükogeen süntaasi kinaasi 3$\beta$ (GSK3$\beta$) ja inhibeerib selle aktiivsuse.
-- GSK3$\beta$ fosforüleerib tsükliin D1 Thr286 mistõttu see translokeerub tuumast tsütoplasmasse ja satub lagundamisele.
-- Teisalt indutseerib Wnt signaalirada D1 ekspressiooni läbi $\beta$-kateniini.
-    - $\beta$-kateniini lagundamist kontrollib samuti GSK3$\beta$.
-    - lisaks kontrollib GSK3$\beta$ p27Kip1 degradatsiooni.
+- Stabiilne 5–6 tundi kestev ERK signalisatsioon indutseerib tsükliin D1 ekspressiooni kesk-G1 faasis (~8–9 tundi peale mitogeense stimulatsiooni algust vaikeolekus rakkudes)
+- PI3-kinaas/Akt fosforüleerib glükogeen süntaasi kinaasi 3$\beta$ (GSK3$\beta$) ja inhibeerib selle aktiivsuse
+- GSK3$\beta$ fosforüleerib tsükliin D1 Thr286 mistõttu see translokeerub tuumast tsütoplasmasse ja satub lagundamisele
+- Teisalt indutseerib Wnt signaalirada D1 ekspressiooni läbi $\beta$-kateniini
+    - $\beta$-kateniini lagundamist kontrollib samuti GSK3$\beta$
+    - lisaks kontrollib GSK3$\beta$ p27Kip1 degradatsiooni
 
 ---
-
 ## Tsükliin D-CDK4/6 lükkavad raku läbi Restriktsiooni-punkti
 
-- Rakud vastvad rakuvälistele mitogeensetele signaalidele kuni R-punktini.
-- **Peale R-punkti läbimist on tsükliinide E $\rightarrow$ A $\rightarrow$ B regulatsioon automaatne ja autonoomne.**
+- Rakud vastvad rakuvälistele mitogeensetele signaalidele kuni R-punktini
+- **Peale R-punkti läbimist on tsükliinide E $\rightarrow$ A $\rightarrow$ B regulatsioon automaatne ja autonoomne**
 
 ---
-
 ## Lisaks tsükliinidele reguleerivad tsükliin-sõltuvaid kinaase ka CDK inhibiitorid (CdkI)
 
-Praeguseks on kirjeldatud seitse erinevat CdkI-d.
+Praeguseks on kirjeldatud seitse erinevat CdkI-d
 - INK4 valgud (**in**hibitors of CD**K4**), mis inhibeerivad spetsiifiiselt ainult CDK4 ja CDK6
-    - **p16^INK4A** , p15^INK4B , p18^INK4C , p19^INK4D .
-- **p21^Cip1** , **p27^Kip1** , p57^Kip2 : inhibeerivad kõiki teisi tsükliin-CDK komplekse.
+    - **p16^INK4A** , p15^INK4B , p18^INK4C , p19^INK4D
+- **p21^Cip1** , **p27^Kip1** , p57^Kip2 : inhibeerivad kõiki teisi tsükliin-CDK komplekse
 
 <img src="assets/img/p16-p27mech.png" style="width:600px;" />
 
@@ -385,54 +365,50 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d.
 
 
 ---
-
 ## TGF-$\beta$ indutseerib p15^INK4B
 
-- **TGF-$\beta$ peamine raku jagunemist pidurdav mehhanism töötab läbi p15^INK4B**.
-- p15^INK4B blokeerib tsükliin D-CDK4/6 komplekside moodustumise ja inhibeerib olemasolevaid.
-- Ilma aktiivse tsükliin D-CDK4/6 pole rakutsükkel võimeline arenema läbi varase ja keskmise G1 faasi R-punktini.
-- Kui rakk on juba R-punkti läbinud pole enam D-CDK4/6 aktiivsus vajalik.
-- Peale R-punkti muutub rakk 'tundetuks' ka TGF-$\beta$ inhibeerivale toimele.
-- [CDKN2A/B lookuse naabruses asuv 9p21.3 lookus on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3).
+- **TGF-$\beta$ peamine raku jagunemist pidurdav mehhanism töötab läbi p15^INK4B**
+- p15^INK4B blokeerib tsükliin D-CDK4/6 komplekside moodustumise ja inhibeerib olemasolevaid
+- Ilma aktiivse tsükliin D-CDK4/6 pole rakutsükkel võimeline arenema läbi varase ja keskmise G1 faasi R-punktini
+- Kui rakk on juba R-punkti läbinud pole enam D-CDK4/6 aktiivsus vajalik
+- Peale R-punkti muutub rakk 'tundetuks' ka TGF-$\beta$ inhibeerivale toimele
+- [CDKN2A/B lookuse naabruses asuv 9p21.3 lookus on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3)
 
 ---
-
 ## p21^Cip1 aktiveeritakse vastusena stressile
 
-- p21^Cip1 toimib läbi terve rakutsükli.
-- TGF-$\beta$ indutseerib nõrgalt ka p21^Cip1 .
-- **Peamine p21^Cip1 induktor on DNA kahjustused**.
-- p21^Cip1 inhibeerib E-CDK2, A-CDK2, A-CDC2, B-CDC2 komplekse.
-- Kui DNA kahjustused on parandatud, siis võetakse p21^Cip1 -blokk maha.
-- p21^Cip1 inhibeerib ka DNA replikatsiooni masinavärgi valku PCNA (*proliferating cell nuclear antigen*).
+- p21^Cip1 toimib läbi terve rakutsükli
+- TGF-$\beta$ indutseerib nõrgalt ka p21^Cip1
+- **Peamine p21^Cip1 induktor on DNA kahjustused**
+- p21^Cip1 inhibeerib E-CDK2, A-CDK2, A-CDC2, B-CDC2 komplekse
+- Kui DNA kahjustused on parandatud, siis võetakse p21^Cip1 -blokk maha
+- p21^Cip1 inhibeerib ka DNA replikatsiooni masinavärgi valku PCNA (*proliferating cell nuclear antigen*)
 
 <img src="http://www-bioc.rice.edu/~shamoo/threeclamps.jpg" style="width:400px;" />
 
 <footer class="source">Pilt: p21 (A, punane) blokeerib PCNA-l (sliding clamp) DNA polümeraasi seostumiskoha (B, C). http://www-bioc.rice.edu </footer>
 
 ---
-
 ## Mitogeenne signalisatsioon inhibeerib p21Cip1 ja p27Kip1
 
-**PKB/Akt inhibeerib p21Cip1 ja p27Kip1 tuuma lokalisatsiooni**.
+**PKB/Akt inhibeerib p21Cip1 ja p27Kip1 tuuma lokalisatsiooni**
 - HER-2/neu-vahendatud raku jagunemine käib läbi Akt aktivatsiooni, 
-- Akt seostub p21Cip1 ja fosforüülib selle treoniin-145, põhjustades tsütoplasma lokalisatsiooni.
-- Akt raja blokeerimine dominant-negatiivse Akt mutandiga taastab p21Cip1 tuuma lokalisatsiooni ja rakkude jagunemist inhibeeriva toime.
-- Sarnaselt toimub p27Kip1 inhibitsioon, seal fosforüülib Akt treoniin-157.
-- Aktiveeritud Akt ekspresseerivad rakkudes ei suuda p27WT tekitada G1 arresti.
-- Tsütoplasmaatiline p27 esines 41% (52/128) inimese primaarsetes rinnavähkides kus on kõrge Akt aktivatsiooni ([Liang et al. 2002](http://www.nature.com/nm/journal/v8/n10/full/nm761.html)).
-- Tsütoplasmaatiline p27 korreleerub halva prognoosiga.
+- Akt seostub p21Cip1 ja fosforüülib selle treoniin-145, põhjustades tsütoplasma lokalisatsiooni
+- Akt raja blokeerimine dominant-negatiivse Akt mutandiga taastab p21Cip1 tuuma lokalisatsiooni ja rakkude jagunemist inhibeeriva toime
+- Sarnaselt toimub p27Kip1 inhibitsioon, seal fosforüülib Akt treoniin-157
+- Aktiveeritud Akt ekspresseerivad rakkudes ei suuda p27WT tekitada G1 arresti
+- Tsütoplasmaatiline p27 esines 41% (52/128) inimese primaarsetes rinnavähkides kus on kõrge Akt aktivatsiooni ([Liang et al. 2002](http://www.nature.com/nm/journal/v8/n10/full/nm761.html))
+- Tsütoplasmaatiline p27 korreleerub halva prognoosiga
 
 ---&twocol
-
 ## p21Cip1 ja p27Kip1 seostumine on vajalik D-CDK4/6 aktivatsiooniks
 
 ***=left
 
 - Primaarsed hiire fibroblastid, milles puuduvad nii p21 ja p27 ei suuda moodustada aktiivseid tsükliin D-CDK komplekse, 
     - ekspresseerivad palju vähem tsükliin D ning
-    - neis ei lokaliseeru  tsükliin D tuuma.
-- Tsükliin D-CDK4/6 tase tõuseb rakus varases-keskmises G1 faasis ja korjab ära p21 ja p27 nii, et see ei saa inhibeerida tsükliin E-CDK2.
+    - neis ei lokaliseeru  tsükliin D tuuma
+- Tsükliin D-CDK4/6 tase tõuseb rakus varases-keskmises G1 faasis ja korjab ära p21 ja p27 nii, et see ei saa inhibeerida tsükliin E-CDK2
 
 ***=right
 
@@ -441,52 +417,50 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://emboj.embopress.org/content/embojnl/18/6/1571/F8.large.jpg" style="width:360px;" />
 
 ---&twocol
-
 ## RB fosforülatsioon reguleerib restriktsioonipunkti läbimist
 
 ***=right
 
-- Kui rakud läbivad M/G1 ülemineku, siis RB defosforüleeritakse täielikult (PP1 fosfataas).
-- G1 faasis tsükliin D-CDK4/6 hüpofosforüleerib RB.
-- Hüpofosforüleeritud RB muutub tsükliin E-CDK2 substraadiks ja hüperfosforüleeritakse.
-- RB jääb hüperfosforüleerituks kogu ülejäänud raku tsükli (kuni jälle G1-ni).
+- Kui rakud läbivad M/G1 ülemineku, siis RB defosforüleeritakse täielikult (PP1 fosfataas)
+- G1 faasis tsükliin D-CDK4/6 hüpofosforüleerib RB
+- Hüpofosforüleeritud RB muutub tsükliin E-CDK2 substraadiks ja hüperfosforüleeritakse
+- RB jääb hüperfosforüleerituks kogu ülejäänud raku tsükli (kuni jälle G1-ni)
 
 ***=left
 
 <img src="http://blogs.shu.edu/cancer/files/2014/08/figure_08_19-1024x903.jpg" style="width:400px;" />
 
 ---
-
 ## RB valgud ehk 'taskuvalgud' (*pocketproteins*)
 
-- RB, p107 ja p130 moodustavad 'taskuvalkude' perekonna.
-- RB on 25% homoloogne ülejäänud kahega ja p107 ning p130 on omavahel 54% identsed.
-- RB *knockout* on hiirele embrüonaalselt surmav, kuid p107 või p130 *knockout* -il pole silmaga nähtavat fenotüüpi.
-- RB omab tugevat tuumorsupresorfunktsiooni ja p107/p130 mutatsioonid on vähkides harvad.
+- RB, p107 ja p130 moodustavad 'taskuvalkude' perekonna
+- RB on 25% homoloogne ülejäänud kahega ja p107 ning p130 on omavahel 54% identsed
+- RB *knockout* on hiirele embrüonaalselt surmav, kuid p107 või p130 *knockout* -il pole silmaga nähtavat fenotüüpi
+- RB omab tugevat tuumorsupresorfunktsiooni ja p107/p130 mutatsioonid on vähkides harvad
 
 <img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-i2.jpg" style="width:400px;" />
 
 <footer class="source">Molecular mechanisms underlying RB protein function. Frederick A. Dick & Seth M. Rubin. Nature Reviews Molecular Cell Biology 14, 297-306 (May 2013) doi:10.1038/nrm3567</footer>
 
 ---
+## Imetajate E2F TF perekond
 
-## Imetajate E2F TF perekond.
+- Kaheksa geeni E2F1-8, kolm toimivad aktivaatoritena (E2F1-3a) ja ülejäänud repressoritena (E2F3b-8)
+- E2F1-6 valgud sisaldavad  DP1,2 (*dimerization partner protein*) heterodimerisatsiooni domääni ja seostuvad DNA-le heterodimeerina koos DP valguga
+- E2F1-5 valgud seovad RB 'taskuvalke' üle C-terminaalse domääni
+- Taskuvalgud pRB, p107 ja p130 seovad E2F ainult hüpofosforüleeritud olekus
 
-- Kaheksa geeni E2F1-8, kolm toimivad aktivaatoritena (E2F1-3a) ja ülejäänud repressoritena (E2F3b-8).
-- E2F1-6 valgud sisaldavad  DP1,2 (*dimerization partner protein*) heterodimerisatsiooni domääni ja seostuvad DNA-le heterodimeerina koos DP valguga.
-- E2F1-5 valgud seovad RB 'taskuvalke' üle C-terminaalse domääni.
-- Taskuvalgud pRB, p107 ja p130 seovad E2F ainult hüpofosforüleeritud olekus.
+<img src="http://www.ijbs.com/v01/p0087/ijbsv01p0087g02.gif" style="width:400px;">
 
-<img src="http://cancer.osu.edu/about/publications/PublishingImages/Frontiers%20Winter%202011/RB%20regulation%20illustration.jpg" style="width:400px;" />
+<footer class="source">Pilt: Signalling In The Epidermis: The E2f Cell Cycle Regulatory Pathway In Epidermal Morphogenesis, Regeneration And Transformation, doi:10.7150/ijbs.1.87 </footer>
 
 ---&twocol
-
 ## RB valgud toimivad läbi E2F
 
-- Hüpofosforüleeritud pRB seostumine maskeerib aktivaatoritel transkriptsiooni aktivatsiooni domääni.
-- Repressorvalkude E2F4 ja E2F5 seostumine taskuvalkudele (peamiselt p107 ja p130) moodustab E2F märklaudgeenide promootoritele repressorkompleksid.
-- Hüpofosforüleeritud RB valgud seostuvad ka DNA-l olevatele E2F valkudele vaigistades niimoodi geeniekspressiooni. Kompleksi 'tõmmatakse' ka histooni deatsetülaas HDAC mis muudab kromatiini struktuuri transkriptsioonile mittepermissiivseks.
-- pRB seostub eelkõige E2F1-3 valkudele ning p107 ja p130 E2F4,5.
+- Hüpofosforüleeritud pRB seostumine maskeerib aktivaatoritel transkriptsiooni aktivatsiooni domääni
+- Repressorvalkude E2F4 ja E2F5 seostumine taskuvalkudele (peamiselt p107 ja p130) moodustab E2F märklaudgeenide promootoritele repressorkompleksid
+- Hüpofosforüleeritud RB valgud seostuvad ka DNA-l olevatele E2F valkudele vaigistades niimoodi geeniekspressiooni. Kompleksi 'tõmmatakse' ka histooni deatsetülaas HDAC mis muudab kromatiini struktuuri transkriptsioonile mittepermissiivseks
+- pRB seostub eelkõige E2F1-3 valkudele ning p107 ja p130 E2F4/5
 
 ***=left
 
@@ -498,54 +472,58 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 <img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f2.jpg" style="width:400px;" />
 
 ---
-
 ## pRB valkude E2F TF seostumiskoht on konserveerunud
 
 ![e2f2rb](http://genesdev.cshlp.org/content/16/24/3199/F3.large.jpg)
 
 - Rb tasku on konserveerunud (mida punasem seda konserveerunum) nii eri liikidel kui valgu isovormidel p107 ja p130 valkudel ([Lee et al. 1998](http://www.nature.com/nature/journal/v391/n6670/full/391859a0.html)). Kollane on E2F2 peptiid mis on seostunud taskusse. 
-- Tärniga nool näitab B-domäänil asuvat LxCxE-motiivi sisaldavate valkude (HPV E7) seostumiskohta ([Lee et. al 2002](http://genesdev.cshlp.org/content/16/24/3199.full)).
-- HPV E7 valgu seostumine RB-le rikub 'tasku' konformatsiooni nii, et see ei saa enam siduda E2F valke.
+- Tärniga nool näitab B-domäänil asuvat LxCxE-motiivi sisaldavate valkude (HPV E7) seostumiskohta ([Lee et. al 2002](http://genesdev.cshlp.org/content/16/24/3199.full))
+- HPV E7 valgu seostumine RB-le rikub 'tasku' konformatsiooni nii, et see ei saa enam siduda E2F valke
 
 ---
-
 ## Transkriptsioonist sõltumatu RB rakutsükli regulatsioon
 
-**RB stabiliseerib p27Kip1**. 
-- RB vahendab ka p27 proteolüütilist lagundamist vahendava Skp2 degradatsiooni.
-- Skp2 on ubikvitiini ligaasi kompleksi p27 ära tundev subühik.
-- RB seob Skp2 üle oma C-terminaalse domääni ja esitleb selle APC/C (*anaphase-promoting complex/cyclosome*) lagundamisele.
-- APC seostub RB B-boxi LxCxE-motiivi sisaldavate valkude seostumiskohta.
+**RB stabiliseerib p27Kip1**
+- RB vahendab ka p27 proteolüütilist lagundamist vahendava Skp2 degradatsiooni
+- Skp2 on ubikvitiini ligaasi kompleksi p27 ära tundev subühik
+- RB seob Skp2 üle oma C-terminaalse domääni ja esitleb selle APC/C (*anaphase-promoting complex/cyclosome*) lagundamisele
+- APC seostub RB B-boxi LxCxE-motiivi sisaldavate valkude seostumiskohta
 
 <img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f3.jpg" style="width:360px;" />
 
 ---
-
 ## pRB hüperfosforüleerimist võimendab positiivne tagasiside
 
-G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid.
-- **Tsükliin E transkriptsiooni reguleerib E2F** ja hüpofosforüleeritud RB repressioonist vabanev E2F võimendab edasist kiiret RB hüperfosorüleerimist läbi tsükliin E-CDK2.
-- **p27Kip1 on tsükliin E-CDK2 substraat** ning fosfo-p27 määratakse ubikvitiin-proteasoomsele lagundamisele.
+G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid
+- **Tsükliin E transkriptsiooni reguleerib E2F** ja hüpofosforüleeritud RB repressioonist vabanev E2F võimendab edasist kiiret RB hüperfosorüleerimist läbi tsükliin E-CDK2
+- **p27Kip1 on tsükliin E-CDK2 substraat** ning fosfo-p27 määratakse ubikvitiin-proteasoomsele lagundamisele
 
 ---
-
 ## Vähis mitmeid strateegiaid RB funktsiooni tasalülitamiseks, MYC
 
-- RB geeni mutatsioonid retinoblastoomis, osteosarkoomis ja väikserakulistes kopsukasvajates.
-- HPV E7 seostumine pRB-le inaktiveerib selle >99.7% emakakaela vähkides.
+- RB geeni mutatsioonid retinoblastoomis, osteosarkoomis ja väikserakulistes kopsukasvajates
+- HPV E7 seostumine pRB-le inaktiveerib selle >99.7% emakakaela vähkides
 
-- **Myc-Max aktiveerib tsükliin D2 ja CDK4 transkriptsiooni**. 
-- Myc on üle ekspresseeritud 15-30% vähkides.
-- Lisaks **aktiveerib Myc-Max ka Cul1 transkriptsiooni**, mis on SCF(SKP2) sisaldava kompleksi E3 ubikvitiin ligaas ja ubikvitineerib fosfo-p27kip.
-- **Myc-Miz1 heterodimeer inhibeerib aga p15^INK4B ning p21Cip1, p27Kip1 transkriptsiooni**.
+- **Myc-Max aktiveerib tsükliin D2 ja CDK4 transkriptsiooni**
+- Myc on üle ekspresseeritud 15-30% vähkides
+- Lisaks **aktiveerib Myc-Max ka Cul1 transkriptsiooni**, mis on SCF(SKP2) sisaldava kompleksi E3 ubikvitiin ligaas ja ubikvitineerib fosfo-p27kip
+- **Myc-Miz1 heterodimeer inhibeerib aga p15^INK4B ning p21Cip1, p27Kip1 transkriptsiooni**
+
+----
+## Tsükliini kinaasi inhibiitorid toimivad läbi RB
+
+- D-tsükliini inhibiitorite p15/p16 mutatsioonid ja RB mutatsioonid välistavad teineteist vähkides
+
+![CDKIvsRB](assets/img/RBvsCDKImuts.png)
+
+<footer class="source">Link andmetele: [RB vs CDKIs](http://magi.brown.edu/view/db47b1d08798145230a159ea3e0ffd54)</footer>
 
 ---
-
 ## Normaalselt TGF-$\beta$ supresseerib Myc ekspressiooni
 
 Võttes arvesse Myc-i võimet p15^INK4B ekspressioon kinni panna ja seega TGF-$\beta$ jagunemist kontrolliv mõju nullida, siis
-- **normaalsetes rakkudes on Myc geen siiski TGF-$\beta$ raja kontrolli all**.
-- Fosfo-SMAD3 istub koos E2F4/5 (repressiivsed E2F valgud), p107 ja C/EBP$\beta$ valkudega Myc geeni promootoril ja paneb sellelt transkriptsiooni efektiivselt kinni.
+- **normaalsetes rakkudes on Myc geen siiski TGF-$\beta$ raja kontrolli all**
+- Fosfo-SMAD3 istub koos E2F4/5 (repressiivsed E2F valgud), p107 ja C/EBP$\beta$ valkudega Myc geeni promootoril ja paneb sellelt transkriptsiooni efektiivselt kinni
 
 Tabel. Erinevates rakutüüpides CdkI üles-regulatsioon varieerub vastusena TGF-$\beta$ stimulatsioonile, kuid Myc alla-regulatsioon on universaalne.
 
@@ -558,22 +536,20 @@ T rakud | | üles | | alla
 
 
 ---
-
 ## Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini
 
 [Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](cellcyclecancer.html)
 
 
 --- .segue .dark .nobackground
-
 ## Lingid teistele loengutele
 
 --- &twocol 
 
 ***=left 
 
-- [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
-- [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+- [Sissejuhatav loeng](http://tpall.github.io/sissejuhatus)
+- [Vähitüübid](http://tpall.github.io/Vahityybid)
 - [Onkoviirused](http://tpall.github.io/Onkoviirused)
 - [Onkogeenid](http://tpall.github.io/Onkogeenid)
 - [Retseptorid](http://tpall.github.io/Retseptorid)

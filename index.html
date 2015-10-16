@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rakutsükli kontroll</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Rakutsükli kontroll">
+  <meta name="author" content="Taavi Päll">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="./assets/css/codefont.css"></link>
+<link rel=stylesheet href="./assets/css/outfont.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Rakutsükli kontroll</h1>
+    <h2>Onkobioloogia</h2>
+    <p>Taavi Päll<br/>lektor, Tallinna Tehnikaülikool</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    <!-- Limit image width and height -->
+
+<style type="text/css">
+img {     
+  max-height: 480px;     
+  max-width: 600px; 
+}
+</style>
+
+<style> .title-slide {
+  background-image:url(http://www.nature.com/nrc/journal/v4/n3/images/nrc1297-f2.jpg); 
+  background-repeat: no-repeat; 
+  background-position: 90% 25%; 
+  background-size: 45%; 
+  background-color: #FFFFFF
+  }
+
+.title-slide hgroup > h1{
+ font-family: 'Oswald', 'Helvetica', sanserif; 
+}
+
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2 {
+  color: #535E43 ;  /* ; #EF5150*/
+}
+</style>
+
+<!-- Center image on slide -->
+
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+
+<script type="text/javascript">
+$(function() {     
+  $("p:has(img)").addClass('centered'); 
+});
+</script>
+
+<!-- Italic -->
+
+<style>
+em {
+  font-style: italic
+}
+</style>
+
+<!-- Bold -->
+
+<style>
+strong {
+  font-weight: bold;
+}
+</style>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue dark" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Recap</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Tuumor-suppressor geenid</h2>
+  </hgroup>
+  <article data-timings="">
+    <blockquote>
+<p><strong>Tuumor-suppressor geen</strong>, või <strong>anti-onkogeen</strong>, on geen mis hoiab ära raku transformatsiooni. Kui see geen muteerub rakus ja tema funktsioon kaob või väheneb, siis võib see rakk areneda vähiks. Tavaliselt on vaja ka teisi onkogeenseid lisamuutusi  (Wikipedia).</p>
+</blockquote>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue dark nobackground" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Rakutsükkel</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+
+<p><a href="http://tpall.github.io/Rakutsyklikontroll">http://tpall.github.io/Rakutsyklikontroll</a></p>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Rakutsükkel</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks</li>
+<li>Rakutsüklit kontrolliv &#39;masinavärk&#39; on universaalne kõigis organismi rakutüüpides.</li>
+<li>Raku rakutsüklisse sisenemist ja &#39;masinavärgi käivitamist&#39; reguleerivad raku väliskeskkonna signaalid</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Rakutsükli käivitamist reguleerivad rakuvälised signaalid</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Eksponentsiaalselt kasvav imetajarakk peab peale igat raku jagunemist otsustama, 
+
+<ul>
+<li>kas kasvada ja jaguneda veel üks tsükkel või </li>
+<li>jääda vaikeolekusse</li>
+</ul></li>
+<li>Seda otsust mõjutavad mitogeensed kasvufaktorid - kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Rakutsükli käivitamist reguleerivad rakuvälised signaalid</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Keskkonna signaalid, mis rakku jagunema/mittejagunema mõjutavad, pärinevad erinevatest allikatest:</p>
+
+<ul>
+<li>türosiin kinaas retseptorid (mitogeenid)</li>
+<li>G-valk retseptorid (GPCR)</li>
+<li>TGF-\(\beta\) retseptorid</li>
+<li>toitainestaatus</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Ka rakutsüklist väljumist reguleerivad rakuvälised signaalid</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Ka raku vaikeolekuse minek võib olla aktiivselt reguleeritud.</p>
+
+<ul>
+<li>TGF-\(\beta\) on üks kesksemaid anti-mitogeene</li>
+<li>Vaikeolek on rakkudel enamasti pöörduv</li>
+<li>Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse <strong>post-mitootilisteks</strong>, nt. neuronid</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Rakutsükli faasid</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Rakutsüklis on neli üksteisele järgnevat faasi:</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li><strong>G1</strong> algab peale mitoosi ja kestab kuni DNA replikatsiooni alguseni S faasis,
+
+<ul>
+<li>rakk kasvab ja valmistub sisenema S faasi</li>
+</ul></li>
+<li><strong>S-faas</strong>is toimub genoomse DNA süntees</li>
+<li><strong>G2 faas</strong> on intervall DNA sünteesi eduka lõpu ja mitoosis toimuva kromosoomide lahknemise vahel
+
+<ul>
+<li>suhteliselt lühike</li>
+<li>mitoosis vajalike valkude süntees</li>
+</ul></li>
+<li><strong>M-faas</strong> mitoos.</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/img/mitosis3_1.png" alt="cell cycle" style="width:400px;"/></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Mitoosi faasid</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p>M-faasis toimub kromosoomide lahknemine</p>
+
+<ul>
+<li><strong>Profaasis</strong> toimub kromosoomide kondenseerumine
+
+<ul>
+<li>Moodustub <strong>mitoosikääv</strong></li>
+</ul></li>
+<li><strong>Metafaasis</strong> joonduvad õdekromatiidid</li>
+<li><strong>Anafaasis</strong> toimub õdekromatiidide lahknemine poolustele</li>
+<li><strong>Telofaasis</strong> moodustub uuesti tuumamembraan ja tuum</li>
+<li><strong>Tsütokinees</strong>: moodustub kaks tütarrakku</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><strong>Mitoosi faasid vesiliku kopsurakus</strong></p>
+
+<p><img src="http://www.sciencemag.org/content/300/5616/91/F3.large.jpg" alt="newt" style="width:460px;"/></p>
+
+<p><footer class="source">Pilt: DOI: 10.1126/science.1082177</footer></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Rakutsükkel liigub ühes suunas</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega</li>
+<li>Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul</li>
+<li>Replikatsioon peab eelnema kromosoomide lahknemisele</li>
+<li>Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Rakkude kasv vs jagunemine</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks</li>
+<li>Selleks peab rakk &#39;kahekordistama&#39; oma suuruse</li>
+<li>Pärmi katsed on näidanud, et <strong>raku suurus valitseb rakutsükli üle: väikesed rakud ei jagune</strong></li>
+<li>Mutatsioonid mis kiirendavad rakutsükli kulgu põhjustavad väiksemate rakkude tekke.</li>
+<li>Rakkude kasv toimub G1 faasis</li>
+</ul>
+
+<p><img src="http://ars.els-cdn.com/content/image/1-s2.0-S0092867401003336-gr1.jpg" alt="tsc1" style="height:240px;"/></p>
+
+<p><footer class="source">Mutation of Tsc1 Increases Cell and Organ Size. Source: DOI: 10.1016/S0092-8674(01)00333-6 </footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Rakutsükli kontrollpunktid, <em>checkpoints</em></h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane</li>
+<li>S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.</li>
+<li>G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud</li>
+<li>M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud</li>
+<li>eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel &#39;sõlmes&#39;</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>Rad17: genoomi replitseeritakse ainult üks kord</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Rad17 sensorvalgu fosfrüleerimine ATRi poolt on vajalik DNA-kahjustuste poolt indutseeriud G2-faasi blokiks</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p>Komosoomi aberratioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:</p>
+
+<ul>
+<li>Katkenud komosoomid (all vasak, nool). </li>
+<li>Endoreduplitseerunud kromosoomid (all parem).</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="http://genesdev.cshlp.org/content/17/8/965/F4.medium.gif" alt="rad17"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>ATR replikatsiooni <em>check</em></h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="assets/img/1-s2.0-S0092867402011133-gr5.jpg" alt=""></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul>
+<li>Seriin-treoniin kinaas ATR tagab fragiilsete saitide stabiilsuse</li>
+<li><strong>ATR aktiveeritakse vastuseks üheahelalisele DNA-le</strong> </li>
+<li>Aktiveeritud ATR fosforüleerib CHK1 kinaasi ja käivitatakse signaalirada mis viib rakutsükli blokini</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>BUB1: käävi kontrollpunkt</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><strong>Käävi kontrollpunkt (<em>spindle assembly checkpoint</em>, SAC) hoiab ära aneuploidia tekke</strong></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Mutatsioonid mitoosikäävi kontrollpunktis võib põhjustada kromosomaalse ebastabiilsuse ja aneuploidsuse, üle 90% tahketest kasvajatest sisaldab kromosomaalseid aberratsioone.</li>
+<li>BUB1 funktsiooni eksperimentaalne pärssimine on piisav rakkudes aneuploidse fenotüüpi tekkeks.</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.</p>
+
+<p><img src="assets/img/F5.large.jpg" alt="bub1" style="width:500px;"/></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>G1 restriktsioonipunkt</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><strong>Tagab mitogeense kontrolli rakutsükli kulgemise üle</strong> </p>
+
+<ul>
+<li>Varases- ja keskmises G1 faasis on S-faasi sisenemine seerum sõltuv.
+
+<ul>
+<li>Samuti on rakud tundlikud TGF-\(\beta\) anti-mitogeensele toimele.</li>
+</ul></li>
+<li>Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Embrüonaalsed tüvirakud</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>ES rakkudel ei ole restriktsioonipunkti</li>
+<li>Varases embrüogeneesis ja ES rakkudel koosneb rakutsükkel ainult G1 ja S-faasist</li>
+<li>ES rakud jagunevad autonoomselt</li>
+<li>Embrüonaalsed tüvirakud jagunevad sümmeetriliselt - tekib kaks identset tütar rakku</li>
+<li>Diferentseerumise surub alla LIF (<em>Leukaemia inhibitory factor</em>) läbi Jak-STAT3 signalisatsiooni</li>
+</ul>
+
+<p><img src="http://www.nature.com/nature/journal/v432/n7015/images/nature03094-f1.2.jpg" style="height:270px;"/></p>
+
+<p><footer class="source">Pilt: G1 cell-cycle control and cancer. Joan Massagué. Nature 432, 298-306(18 November 2004). doi:10.1038/nature03094</footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>Ka rakutsükli masinavärki reguleerivad kinaasid</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Rakutsükli kinaaside (<strong>CDK</strong>) substraadid:</p>
+
+<ul>
+<li>Tsentrosoomi valke (<em>CP110</em>) fosforüleeritakse G1/S üleminekul tsentrosoomi duplitseerumiseks</li>
+<li>Enne S-faasi aktiveeritakse replikatsioonikompleks (<em>Treslin</em>)</li>
+<li><em>Histoonide</em> fosforüleerimine S ja M faasis kromatiini kondenseerumiseks</li>
+<li>Tuumamebraani valkude (<em>Lamiin</em>) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h2>Rakutsükli kinaasid (CDK)</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>CDK on Ser/tre-kinaasid</li>
+<li>40% aa järjestusest identsed</li>
+<li><strong>CDK aktiveerub seostumisel tsükliiniga</strong>
+
+<ul>
+<li>tsükliin E + CDK2 kompleksi kinaasne aktiivsus tõuseb 400000 korda</li>
+</ul></li>
+<li>Tsükliinid tagavad ka substraat spetsiifilisuse</li>
+</ul>
+
+<p><img src="assets/img/A-CDK2anno.png" alt="a-cdk2" style="width:400px;"/></p>
+
+<p><footer class="source">Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Jeffrey, P.D.,  Russo, A.A.,  Polyak, K.,  Gibbs, E.,  Hurwitz, J.,  Massague, J.,  Pavletich, N.P. (1995) Nature 376: 313-320</footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  <hgroup>
+    <h2>Iga tsükliin paardub kindla kinaasiga kindlas rakusükli faasis</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="http://www.nature.com/nrc/journal/v13/n3/images/nrc3468-f1.jpg" style="width:460px;"/></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <table><thead>
+<tr>
+<th>Tsükliini kinaas</th>
+<th>Tsükliin</th>
+<th>Rakutsükli faas</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>CDK4/6</td>
+<td>D1, D2, D3</td>
+<td>varane G1</td>
+</tr>
+<tr>
+<td>CDK2</td>
+<td>E1, E2</td>
+<td>hiline G1, G1/S üleminek</td>
+</tr>
+<tr>
+<td>CDK2</td>
+<td>A</td>
+<td>S</td>
+</tr>
+<tr>
+<td>CDC2 (CDK1)</td>
+<td>A</td>
+<td>S/G2</td>
+</tr>
+<tr>
+<td>CDC2</td>
+<td>B</td>
+<td>M</td>
+</tr>
+</tbody></table>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  <hgroup>
+    <h2>Tsükliinide hulk rakus muutub rakutsükli käigus</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Tsükliine kontrollitakse läbi proteolüütilise lagundamise</li>
+<li>Tsükliini järkjärguline tõus ja kiire lagundamine tagab rakutsükli &#39;hammasrataste&#39; liikumise ühes sunas</li>
+<li><strong>D-tsükliinid erinevad: nende puhu ei toimu järske kõikumisi rakutsükli käigus</strong></li>
+<li><strong>D-tsükliinid on reguleeritud mitogeensete sinaalide poolt</strong></li>
+</ul>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cyclin_Expression.svg/1280px-Cyclin_Expression.svg.png" alt=""></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-24" style="background:;">
+  <hgroup>
+    <h2>Erinevad mitogeensed rajad konvergeeruvad tsükliin D regulatsioonil</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Kasvufaktorid stimuleerivad kiire tsükliin D taseme tõusu rakus, samuti kasvufaktorite &#39;ära võtmine&#39; koekultuuri tingimustes viib tsükliin D lagundamiseni (poolestuseg ~30 min)</p>
+
+<p>Kasvufaktorite rajad mis kontrollivad tsükliin D ekspressiooni:</p>
+
+<ul>
+<li>GF \(\rightarrow\) <strong>türosiin kinaas reseptorid</strong> \(\rightarrow\) Ras \(\rightarrow\) Raf/RalGDS \(\rightarrow\) Fos/Jun \(\rightarrow\) D1</li>
+<li>GF \(\rightarrow\) <strong>HER2/Neu</strong> \(\rightarrow\rightarrow\rightarrow\) Sp1 \(\rightarrow\) D1</li>
+<li><strong>Wnt</strong> \(\rightarrow\) <strong>\(\beta\)-kateniin</strong> \(\rightarrow\) Tcf/Lef \(\rightarrow\) D1</li>
+<li>Tsütokiinid \(\rightarrow\) tsütokiini retseptorid \(\rightarrow\) <strong>Jak \(\rightarrow\) STAT</strong> \(\rightarrow\) D1</li>
+<li><strong>Hedgehog</strong> \(\rightarrow\) Patched \(\rightarrow\) Smoothened \(\rightarrow\) <strong>Gli</strong> \(\rightarrow\) D1</li>
+<li>Erinevad ligandid \(\rightarrow\) erinevad retseptorid \(\rightarrow\) IKK \(\rightarrow\) <strong>NF-$\kappa$B</strong> \(\rightarrow\) D1</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  <hgroup>
+    <h2>Kolme D-tüüpi tsükliini induktsioonimuster erineb</h2>
+  </hgroup>
+  <article data-timings="">
+    <table><thead>
+<tr>
+<th>Signaali allikas</th>
+<th>Signaalirada</th>
+<th>D tsükliini isovorm</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>RANK retseptor</td>
+<td>NF-$\kappa$B</td>
+<td>D<strong>1</strong></td>
+</tr>
+<tr>
+<td>Prolaktiini retseptor</td>
+<td>Jak/Stat</td>
+<td>D<strong>1</strong></td>
+</tr>
+<tr>
+<td>Östogeeni retseptor</td>
+<td>AP1 (Fos/Jun)</td>
+<td>D<strong>1</strong></td>
+</tr>
+<tr>
+<td><em>Focal adhesion kinase</em></td>
+<td></td>
+<td>D<strong>1</strong></td>
+</tr>
+<tr>
+<td>HER2/Neu</td>
+<td>E2F ja Sp1</td>
+<td>D<strong>1</strong></td>
+</tr>
+<tr>
+<td>Wnt-Frizzled</td>
+<td>\(\beta\)-kateniin-Tcf/Lef</td>
+<td>D<strong>1</strong></td>
+</tr>
+<tr>
+<td>Bcr/Abl</td>
+<td></td>
+<td>D<strong>2</strong></td>
+</tr>
+<tr>
+<td>FSH retseptor</td>
+<td>cAMP</td>
+<td>D<strong>2</strong></td>
+</tr>
+<tr>
+<td>erinevad mitogeenid</td>
+<td>Myc</td>
+<td>D<strong>2</strong></td>
+</tr>
+<tr>
+<td>IL-4/7 retseptor</td>
+<td></td>
+<td>D<strong>2</strong></td>
+</tr>
+<tr>
+<td>IL-5 retseptor</td>
+<td>STAT3/5</td>
+<td>D<strong>3</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>E2F transkriptsiooni faktorid</td>
+<td>D<strong>3</strong></td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-26" style="background:;">
+  <hgroup>
+    <h2>Tsükliin D1 regulatsiooni mehhanismid</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>GF-Ras-Raf-Erk ja Wnt signaalirada kontrollib tsükliin D1 ekspressiooni ning stabiilsust ja GSK3\(\beta\) on siin negatiivne regulaator.</p>
+
+<ul>
+<li>Stabiilne 5–6 tundi kestev ERK signalisatsioon indutseerib tsükliin D1 ekspressiooni kesk-G1 faasis (~8–9 tundi peale mitogeense stimulatsiooni algust vaikeolekus rakkudes)</li>
+<li>PI3-kinaas/Akt fosforüleerib glükogeen süntaasi kinaasi 3\(\beta\) (GSK3\(\beta\)) ja inhibeerib selle aktiivsuse</li>
+<li>GSK3\(\beta\) fosforüleerib tsükliin D1 Thr286 mistõttu see translokeerub tuumast tsütoplasmasse ja satub lagundamisele</li>
+<li>Teisalt indutseerib Wnt signaalirada D1 ekspressiooni läbi \(\beta\)-kateniini
+
+<ul>
+<li>\(\beta\)-kateniini lagundamist kontrollib samuti GSK3\(\beta\)</li>
+<li>lisaks kontrollib GSK3\(\beta\) p27Kip1 degradatsiooni</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-27" style="background:;">
+  <hgroup>
+    <h2>Tsükliin D-CDK4/6 lükkavad raku läbi Restriktsiooni-punkti</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Rakud vastvad rakuvälistele mitogeensetele signaalidele kuni R-punktini</li>
+<li><strong>Peale R-punkti läbimist on tsükliinide E \(\rightarrow\) A \(\rightarrow\) B regulatsioon automaatne ja autonoomne</strong></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-28" style="background:;">
+  <hgroup>
+    <h2>Lisaks tsükliinidele reguleerivad tsükliin-sõltuvaid kinaase ka CDK inhibiitorid (CdkI)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Praeguseks on kirjeldatud seitse erinevat CdkI-d</p>
+
+<ul>
+<li>INK4 valgud (<strong>in</strong>hibitors of CD<strong>K4</strong>), mis inhibeerivad spetsiifiiselt ainult CDK4 ja CDK6
+
+<ul>
+<li><strong>p16<sup>INK4A</sup></strong> , p15<sup>INK4B</sup> , p18<sup>INK4C</sup> , p19<sup>INK4D</sup></li>
+</ul></li>
+<li><strong>p21<sup>Cip1</sup></strong> , <strong>p27<sup>Kip1</sup></strong> , p57<sup>Kip2</sup> : inhibeerivad kõiki teisi tsükliin-CDK komplekse</li>
+</ul>
+
+<p><img src="assets/img/p16-p27mech.png" style="width:600px;" /></p>
+
+<p><footer class="source">Crystal structure of the p27Kip1 cyclin-dependent-kinase inhibitor bound to the cyclin A-Cdk2 complex. Russo, A.A.,  Jeffrey, P.D.,  Patten, A.K.,  Massague, J.,  Pavletich, N.P. (1996) Nature 382: 325-331. Structural basis for inhibition of the cyclin-dependent kinase Cdk6 by the tumour suppressor p16INK4a. Russo, A.A.,  Tong, L.,  Lee, J.O.,  Jeffrey, P.D.,  Pavletich, N.P. (1998) Nature 395: 237-243.</footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-29" style="background:;">
+  <hgroup>
+    <h2>TGF-\(\beta\) indutseerib p15<sup>INK4B</sup></h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><strong>TGF-\(\beta\) peamine raku jagunemist pidurdav mehhanism töötab läbi p15<sup>INK4B</sup></strong></li>
+<li>p15<sup>INK4B</sup> blokeerib tsükliin D-CDK4/6 komplekside moodustumise ja inhibeerib olemasolevaid</li>
+<li>Ilma aktiivse tsükliin D-CDK4/6 pole rakutsükkel võimeline arenema läbi varase ja keskmise G1 faasi R-punktini</li>
+<li>Kui rakk on juba R-punkti läbinud pole enam D-CDK4/6 aktiivsus vajalik</li>
+<li>Peale R-punkti muutub rakk &#39;tundetuks&#39; ka TGF-\(\beta\) inhibeerivale toimele</li>
+<li><a href="http://rpubs.com/tapa741/tuumorsupressorgeenid">CDKN2A/B lookuse naabruses asuv 9p21.3 lookus on üks sagedamini muteerunud piirkondi eri tüüpi vähkides</a> (vt. Supplementary Table 3)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-30" style="background:;">
+  <hgroup>
+    <h2>p21<sup>Cip1</sup> aktiveeritakse vastusena stressile</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>p21<sup>Cip1</sup> toimib läbi terve rakutsükli</li>
+<li>TGF-\(\beta\) indutseerib nõrgalt ka p21<sup>Cip1</sup></li>
+<li><strong>Peamine p21<sup>Cip1</sup> induktor on DNA kahjustused</strong></li>
+<li>p21<sup>Cip1</sup> inhibeerib E-CDK2, A-CDK2, A-CDC2, B-CDC2 komplekse</li>
+<li>Kui DNA kahjustused on parandatud, siis võetakse p21<sup>Cip1</sup> -blokk maha</li>
+<li>p21<sup>Cip1</sup> inhibeerib ka DNA replikatsiooni masinavärgi valku PCNA (<em>proliferating cell nuclear antigen</em>)</li>
+</ul>
+
+<p><img src="http://www-bioc.rice.edu/~shamoo/threeclamps.jpg" style="width:400px;" /></p>
+
+<p><footer class="source">Pilt: p21 (A, punane) blokeerib PCNA-l (sliding clamp) DNA polümeraasi seostumiskoha (B, C). <a href="http://www-bioc.rice.edu">http://www-bioc.rice.edu</a> </footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-31" style="background:;">
+  <hgroup>
+    <h2>Mitogeenne signalisatsioon inhibeerib p21Cip1 ja p27Kip1</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><strong>PKB/Akt inhibeerib p21Cip1 ja p27Kip1 tuuma lokalisatsiooni</strong></p>
+
+<ul>
+<li>HER-2/neu-vahendatud raku jagunemine käib läbi Akt aktivatsiooni, </li>
+<li>Akt seostub p21Cip1 ja fosforüülib selle treoniin-145, põhjustades tsütoplasma lokalisatsiooni</li>
+<li>Akt raja blokeerimine dominant-negatiivse Akt mutandiga taastab p21Cip1 tuuma lokalisatsiooni ja rakkude jagunemist inhibeeriva toime</li>
+<li>Sarnaselt toimub p27Kip1 inhibitsioon, seal fosforüülib Akt treoniin-157</li>
+<li>Aktiveeritud Akt ekspresseerivad rakkudes ei suuda p27WT tekitada G1 arresti</li>
+<li>Tsütoplasmaatiline p27 esines 41% (52/128) inimese primaarsetes rinnavähkides kus on kõrge Akt aktivatsiooni (<a href="http://www.nature.com/nm/journal/v8/n10/full/nm761.html">Liang et al. 2002</a>)</li>
+<li>Tsütoplasmaatiline p27 korreleerub halva prognoosiga</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-32" style="background:;">
+  <hgroup>
+    <h2>p21Cip1 ja p27Kip1 seostumine on vajalik D-CDK4/6 aktivatsiooniks</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Primaarsed hiire fibroblastid, milles puuduvad nii p21 ja p27 ei suuda moodustada aktiivseid tsükliin D-CDK komplekse, 
+
+<ul>
+<li>ekspresseerivad palju vähem tsükliin D ning</li>
+<li>neis ei lokaliseeru  tsükliin D tuuma</li>
+</ul></li>
+<li>Tsükliin D-CDK4/6 tase tõuseb rakus varases-keskmises G1 faasis ja korjab ära p21 ja p27 nii, et see ei saa inhibeerida tsükliin E-CDK2</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse <a href="http://emboj.embopress.org/content/18/6/1571.long">Cheng et al. 1999</a>.</p>
+
+<p><img src="http://emboj.embopress.org/content/embojnl/18/6/1571/F8.large.jpg" style="width:360px;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-33" style="background:;">
+  <hgroup>
+    <h2>RB fosforülatsioon reguleerib restriktsioonipunkti läbimist</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="http://blogs.shu.edu/cancer/files/2014/08/figure_08_19-1024x903.jpg" style="width:400px;" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul>
+<li>Kui rakud läbivad M/G1 ülemineku, siis RB defosforüleeritakse täielikult (PP1 fosfataas)</li>
+<li>G1 faasis tsükliin D-CDK4/6 hüpofosforüleerib RB</li>
+<li>Hüpofosforüleeritud RB muutub tsükliin E-CDK2 substraadiks ja hüperfosforüleeritakse</li>
+<li>RB jääb hüperfosforüleerituks kogu ülejäänud raku tsükli (kuni jälle G1-ni)</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-34" style="background:;">
+  <hgroup>
+    <h2>RB valgud ehk &#39;taskuvalgud&#39; (<em>pocketproteins</em>)</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>RB, p107 ja p130 moodustavad &#39;taskuvalkude&#39; perekonna</li>
+<li>RB on 25% homoloogne ülejäänud kahega ja p107 ning p130 on omavahel 54% identsed</li>
+<li>RB <em>knockout</em> on hiirele embrüonaalselt surmav, kuid p107 või p130 <em>knockout</em> -il pole silmaga nähtavat fenotüüpi</li>
+<li>RB omab tugevat tuumorsupresorfunktsiooni ja p107/p130 mutatsioonid on vähkides harvad</li>
+</ul>
+
+<p><img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-i2.jpg" style="width:400px;" /></p>
+
+<p><footer class="source">Molecular mechanisms underlying RB protein function. Frederick A. Dick &amp; Seth M. Rubin. Nature Reviews Molecular Cell Biology 14, 297-306 (May 2013) doi:10.1038/nrm3567</footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-35" style="background:;">
+  <hgroup>
+    <h2>Imetajate E2F TF perekond</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Kaheksa geeni E2F1-8, kolm toimivad aktivaatoritena (E2F1-3a) ja ülejäänud repressoritena (E2F3b-8)</li>
+<li>E2F1-6 valgud sisaldavad  DP1,2 (<em>dimerization partner protein</em>) heterodimerisatsiooni domääni ja seostuvad DNA-le heterodimeerina koos DP valguga</li>
+<li>E2F1-5 valgud seovad RB &#39;taskuvalke&#39; üle C-terminaalse domääni</li>
+<li>Taskuvalgud pRB, p107 ja p130 seovad E2F ainult hüpofosforüleeritud olekus</li>
+</ul>
+
+<p><img src="http://www.ijbs.com/v01/p0087/ijbsv01p0087g02.gif" style="width:400px;"></p>
+
+<p><footer class="source">Pilt: Signalling In The Epidermis: The E2f Cell Cycle Regulatory Pathway In Epidermal Morphogenesis, Regeneration And Transformation, doi:10.7150/ijbs.1.87 </footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-36" style="background:;">
+  <hgroup>
+    <h2>RB valgud toimivad läbi E2F</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Hüpofosforüleeritud pRB seostumine maskeerib aktivaatoritel transkriptsiooni aktivatsiooni domääni</li>
+<li>Repressorvalkude E2F4 ja E2F5 seostumine taskuvalkudele (peamiselt p107 ja p130) moodustab E2F märklaudgeenide promootoritele repressorkompleksid</li>
+<li>Hüpofosforüleeritud RB valgud seostuvad ka DNA-l olevatele E2F valkudele vaigistades niimoodi geeniekspressiooni. Kompleksi &#39;tõmmatakse&#39; ka histooni deatsetülaas HDAC mis muudab kromatiini struktuuri transkriptsioonile mittepermissiivseks</li>
+<li>pRB seostub eelkõige E2F1-3 valkudele ning p107 ja p130 E2F4/5</li>
+</ul>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="http://www.nature.com/nrm/journal/v9/n9/images/nrm2469-i1.jpg" style="width:400px;" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f2.jpg" style="width:400px;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-37" style="background:;">
+  <hgroup>
+    <h2>pRB valkude E2F TF seostumiskoht on konserveerunud</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="http://genesdev.cshlp.org/content/16/24/3199/F3.large.jpg" alt="e2f2rb"></p>
+
+<ul>
+<li>Rb tasku on konserveerunud (mida punasem seda konserveerunum) nii eri liikidel kui valgu isovormidel p107 ja p130 valkudel (<a href="http://www.nature.com/nature/journal/v391/n6670/full/391859a0.html">Lee et al. 1998</a>). Kollane on E2F2 peptiid mis on seostunud taskusse. </li>
+<li>Tärniga nool näitab B-domäänil asuvat LxCxE-motiivi sisaldavate valkude (HPV E7) seostumiskohta (<a href="http://genesdev.cshlp.org/content/16/24/3199.full">Lee et. al 2002</a>)</li>
+<li>HPV E7 valgu seostumine RB-le rikub &#39;tasku&#39; konformatsiooni nii, et see ei saa enam siduda E2F valke</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-38" style="background:;">
+  <hgroup>
+    <h2>Transkriptsioonist sõltumatu RB rakutsükli regulatsioon</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><strong>RB stabiliseerib p27Kip1</strong></p>
+
+<ul>
+<li>RB vahendab ka p27 proteolüütilist lagundamist vahendava Skp2 degradatsiooni</li>
+<li>Skp2 on ubikvitiini ligaasi kompleksi p27 ära tundev subühik</li>
+<li>RB seob Skp2 üle oma C-terminaalse domääni ja esitleb selle APC/C (<em>anaphase-promoting complex/cyclosome</em>) lagundamisele</li>
+<li>APC seostub RB B-boxi LxCxE-motiivi sisaldavate valkude seostumiskohta</li>
+</ul>
+
+<p><img src="http://www.nature.com/nrm/journal/v14/n5/images/nrm3567-f3.jpg" style="width:360px;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-39" style="background:;">
+  <hgroup>
+    <h2>pRB hüperfosforüleerimist võimendab positiivne tagasiside</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid</p>
+
+<ul>
+<li><strong>Tsükliin E transkriptsiooni reguleerib E2F</strong> ja hüpofosforüleeritud RB repressioonist vabanev E2F võimendab edasist kiiret RB hüperfosorüleerimist läbi tsükliin E-CDK2</li>
+<li><strong>p27Kip1 on tsükliin E-CDK2 substraat</strong> ning fosfo-p27 määratakse ubikvitiin-proteasoomsele lagundamisele</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-40" style="background:;">
+  <hgroup>
+    <h2>Vähis mitmeid strateegiaid RB funktsiooni tasalülitamiseks, MYC</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>RB geeni mutatsioonid retinoblastoomis, osteosarkoomis ja väikserakulistes kopsukasvajates</li>
+<li><p>HPV E7 seostumine pRB-le inaktiveerib selle &gt;99.7% emakakaela vähkides</p></li>
+<li><p><strong>Myc-Max aktiveerib tsükliin D2 ja CDK4 transkriptsiooni</strong></p></li>
+<li><p>Myc on üle ekspresseeritud 15-30% vähkides</p></li>
+<li><p>Lisaks <strong>aktiveerib Myc-Max ka Cul1 transkriptsiooni</strong>, mis on SCF(SKP2) sisaldava kompleksi E3 ubikvitiin ligaas ja ubikvitineerib fosfo-p27kip</p></li>
+<li><p><strong>Myc-Miz1 heterodimeer inhibeerib aga p15<sup>INK4B</sup> ning p21Cip1, p27Kip1 transkriptsiooni</strong></p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-41" style="background:;">
+  <hgroup>
+    <h2>Tsükliini kinaasi inhibiitorid toimivad läbi RB</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>D-tsükliini inhibiitorite p15/p16 mutatsioonid ja RB mutatsioonid välistavad teineteist vähkides</li>
+</ul>
+
+<p><img src="assets/img/RBvsCDKImuts.png" alt="CDKIvsRB"></p>
+
+<p><footer class="source">Link andmetele: <a href="http://magi.brown.edu/view/db47b1d08798145230a159ea3e0ffd54">RB vs CDKIs</a></footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-42" style="background:;">
+  <hgroup>
+    <h2>Normaalselt TGF-\(\beta\) supresseerib Myc ekspressiooni</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Võttes arvesse Myc-i võimet p15<sup>INK4B</sup> ekspressioon kinni panna ja seega TGF-\(\beta\) jagunemist kontrolliv mõju nullida, siis</p>
+
+<ul>
+<li><strong>normaalsetes rakkudes on Myc geen siiski TGF-\(\beta\) raja kontrolli all</strong></li>
+<li>Fosfo-SMAD3 istub koos E2F4/5 (repressiivsed E2F valgud), p107 ja C/EBP\(\beta\) valkudega Myc geeni promootoril ja paneb sellelt transkriptsiooni efektiivselt kinni</li>
+</ul>
+
+<p>Tabel. Erinevates rakutüüpides CdkI üles-regulatsioon varieerub vastusena TGF-\(\beta\) stimulatsioonile, kuid Myc alla-regulatsioon on universaalne.</p>
+
+<table><thead>
+<tr>
+<th>Rakud</th>
+<th>p15<sup>INK4B</sup></th>
+<th>p21<sup>Cip1</sup></th>
+<th>p57<sup>Kip2</sup></th>
+<th>c-MYC</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>epiteeli eellasrakud</td>
+<td>üles</td>
+<td>üles</td>
+<td></td>
+<td>alla</td>
+</tr>
+<tr>
+<td>neuraalsed eellasrakud, astrotsüüdid</td>
+<td>üles</td>
+<td>üles</td>
+<td></td>
+<td>alla</td>
+</tr>
+<tr>
+<td>hematopoeetilised eellasrakud</td>
+<td></td>
+<td></td>
+<td>üles</td>
+<td>alla</td>
+</tr>
+<tr>
+<td>T rakud</td>
+<td></td>
+<td>üles</td>
+<td></td>
+<td>alla</td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-43" style="background:;">
+  <hgroup>
+    <h2>Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><a href="cellcyclecancer.html">Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue dark nobackground" id="slide-44" style="background:;">
+  <hgroup>
+    <h2>Lingid teistele loengutele</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-45" style="background:;">
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li><a href="http://tpall.github.io/sissejuhatus">Sissejuhatav loeng</a></li>
+<li><a href="http://tpall.github.io/Vahityybid">Vähitüübid</a></li>
+<li><a href="http://tpall.github.io/Onkoviirused">Onkoviirused</a></li>
+<li><a href="http://tpall.github.io/Onkogeenid">Onkogeenid</a></li>
+<li><a href="http://tpall.github.io/Retseptorid">Retseptorid</a></li>
+<li><a href="http://tpall.github.io/Signaalirajad">Signaalirajad</a></li>
+<li><a href="http://tpall.github.io/Tuumorsupressorid">Tuumorsupressorgeenid</a></li>
+<li><a href="http://tpall.github.io/Rakutsyklikontroll">Rakutsüklikontroll</a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul>
+<li><a href="http://tpall.github.io/p53-ja-apoptoos">p53 ja apoptoos</a></li>
+<li><a href="http://tpall.github.io/Immortalisatsioon">Immortalisatsioon</a></li>
+<li><a href="http://tpall.github.io/Tumorigenees">Tumorigenees</a></li>
+<li><a href="http://tpall.github.io/Genoomiterviklikkus">Genoomiterviklikkus</a></li>
+<li><a href="http://tpall.github.io/Mikrokeskkond">Mikrokeskkond</a></li>
+<li><a href="http://tpall.github.io/Metastaas">Metastaasid</a></li>
+<li><a href="http://tpall.github.io/Immuunsus">Immuunsus</a></li>
+<li><a href="http://tpall.github.io/Vahiravim">Vähiravimid</a></li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Recap'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Tuumor-suppressor geenid'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Rakutsükkel'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='NA'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Rakutsükkel'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Rakutsükli käivitamist reguleerivad rakuvälised signaalid'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Rakutsükli käivitamist reguleerivad rakuvälised signaalid'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Ka rakutsüklist väljumist reguleerivad rakuvälised signaalid'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Rakutsükli faasid'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Mitoosi faasid'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Rakutsükkel liigub ühes suunas'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Rakkude kasv vs jagunemine'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Rakutsükli kontrollpunktid, <em>checkpoints</em>'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Rad17: genoomi replitseeritakse ainult üks kord'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='ATR replikatsiooni <em>check</em>'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='BUB1: käävi kontrollpunkt'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='G1 restriktsioonipunkt'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Embrüonaalsed tüvirakud'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Ka rakutsükli masinavärki reguleerivad kinaasid'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Rakutsükli kinaasid (CDK)'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Iga tsükliin paardub kindla kinaasiga kindlas rakusükli faasis'>
+         22
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='Tsükliinide hulk rakus muutub rakutsükli käigus'>
+         23
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='Erinevad mitogeensed rajad konvergeeruvad tsükliin D regulatsioonil'>
+         24
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='Kolme D-tüüpi tsükliini induktsioonimuster erineb'>
+         25
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Tsükliin D1 regulatsiooni mehhanismid'>
+         26
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='Tsükliin D-CDK4/6 lükkavad raku läbi Restriktsiooni-punkti'>
+         27
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='Lisaks tsükliinidele reguleerivad tsükliin-sõltuvaid kinaase ka CDK inhibiitorid (CdkI)'>
+         28
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='TGF-\(\beta\) indutseerib p15<sup>INK4B</sup>'>
+         29
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='p21<sup>Cip1</sup> aktiveeritakse vastusena stressile'>
+         30
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=31 title='Mitogeenne signalisatsioon inhibeerib p21Cip1 ja p27Kip1'>
+         31
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=32 title='p21Cip1 ja p27Kip1 seostumine on vajalik D-CDK4/6 aktivatsiooniks'>
+         32
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=33 title='RB fosforülatsioon reguleerib restriktsioonipunkti läbimist'>
+         33
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=34 title='RB valgud ehk &#39;taskuvalgud&#39; (<em>pocketproteins</em>)'>
+         34
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=35 title='Imetajate E2F TF perekond'>
+         35
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=36 title='RB valgud toimivad läbi E2F'>
+         36
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=37 title='pRB valkude E2F TF seostumiskoht on konserveerunud'>
+         37
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=38 title='Transkriptsioonist sõltumatu RB rakutsükli regulatsioon'>
+         38
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=39 title='pRB hüperfosforüleerimist võimendab positiivne tagasiside'>
+         39
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=40 title='Vähis mitmeid strateegiaid RB funktsiooni tasalülitamiseks, MYC'>
+         40
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=41 title='Tsükliini kinaasi inhibiitorid toimivad läbi RB'>
+         41
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=42 title='Normaalselt TGF-\(\beta\) supresseerib Myc ekspressiooni'>
+         42
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=43 title='Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini'>
+         43
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=44 title='Lingid teistele loengutele'>
+         44
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=45 title='NA'>
+         45
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  <script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<script>  
+  $(function (){ 
+    $("#example").popover(); 
+    $("[rel='tooltip']").tooltip(); 
+  });  
+  </script>  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
