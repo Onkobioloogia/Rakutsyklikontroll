@@ -62,7 +62,7 @@ strong {
 ---
 ## Tuumorsupressorgeenid
 
->**Tuumorsupressorgeen**, või **antionkogeen**, on geen mis hoiab ära raku transformatsiooni. Kui see geen muteerub rakus ja tema funktsioon kaob või väheneb, siis võib see rakk areneda vähiks. Tavaliselt on vaja ka teisi onkogeenseid lisamuutusi  (Wikipedia).
+>**Tuumor-suppressor geen**, või **anti-onkogeen**, on geen mis hoiab ära raku transformatsiooni. Kui see geen muteerub rakus ja tema funktsioon kaob või väheneb, siis võib see rakk areneda vähiks. Tavaliselt on vaja ka teisi onkogeenseid lisamuutusi  (Wikipedia).
 
 
 
