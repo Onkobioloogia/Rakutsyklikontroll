@@ -99,7 +99,6 @@ Keskkonna signaalid, mis rakku jagunema/mittejagunema mõjutavad, pärinevad eri
 
 - türosiin kinaas retseptorid (mitogeenid)
 - G-valk retseptorid (GPCR)
-- TGF-$\beta$ retseptorid
 - toitainestaatus
 
 ---
@@ -177,11 +176,12 @@ M-faasis toimub kromosoomide lahknemine
 ---
 ## Rakutsükli kontrollpunktid, *checkpoints*
 
-- G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane
-- S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.
-- G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud
-- M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud
-- eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'
+1. G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane
+2. S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.
+3. G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud
+4. eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'
+5. M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud
+
 
 --- &twocol
 ## Rad17: genoomi replitseeritakse ainult üks kord 
@@ -238,19 +238,6 @@ See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.
 - Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest
 
 ---
-## Embrüonaalsed tüvirakud
-
-- ES rakkudel ei ole restriktsioonipunkti
-- Varases embrüogeneesis ja ES rakkudel koosneb rakutsükkel ainult G1 ja S-faasist
-- ES rakud jagunevad autonoomselt
-- Embrüonaalsed tüvirakud jagunevad sümmeetriliselt - tekib kaks identset tütar rakku
-- Diferentseerumise surub alla LIF (*Leukaemia inhibitory factor*) läbi Jak-STAT3 signalisatsiooni
-
-<img src="http://www.nature.com/nature/journal/v432/n7015/images/nature03094-f1.2.jpg" style="height:270px;"/>
-
-<footer class="source">Pilt: G1 cell-cycle control and cancer. Joan Massagué. Nature 432, 298-306(18 November 2004). doi:10.1038/nature03094</footer>
-
----
 
 ## Ka rakutsükli masinavärki reguleerivad kinaasid
 
@@ -297,7 +284,7 @@ CDC2 | B | M
 - Tsükliine kontrollitakse läbi proteolüütilise lagundamise
 - Tsükliini järkjärguline tõus ja kiire lagundamine tagab rakutsükli 'hammasrataste' liikumise ühes sunas
 - **D-tsükliinid erinevad: nende puhu ei toimu järske kõikumisi rakutsükli käigus**
-- **D-tsükliinid on reguleeritud mitogeensete sinaalide poolt**
+- **D-tsükliinid on reguleeritud mitogeensete signaalide poolt**
 
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cyclin_Expression.svg/1280px-Cyclin_Expression.svg.png)
 
