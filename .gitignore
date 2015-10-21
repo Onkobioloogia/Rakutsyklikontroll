@@ -4,3 +4,10 @@
 *.html
 *.md
 !index.html
+*.tex
+*.log
+*.nav
+*.snm
+*.synctex.gz
+*.toc
+*.pdf
