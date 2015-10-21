@@ -1,4 +1,5 @@
-\documentclass[compress,red,handout]{beamer}
+\documentclass[compress,red,handout,10pt]{beamer}
+\usepackage{etex}
 \mode<presentation>
 %\usetheme{Warsaw}
 % other themes: AnnArbor, Antibes, Bergen, Berkeley, Berlin, Boadilla, boxes, CambridgeUS, Copenhagen, Darmstadt, default, Dresden, Frankfurt, Goettingen,
@@ -35,13 +36,12 @@
 
 % include packages
 \usepackage{texshade}
-\graphicspath{{./images/}}
 \usepackage{subfig}
 %\usepackage{multicol}
 %\usepackage{amsmath}
 %\usepackage{epsfig}
 \usepackage{graphicx}
-\graphicspath{{/home/taavi/Dropbox/Loeng/Rakutsykkel/images/}}
+\graphicspath{{assets/images/}{assets/img/}}
 \usepackage[all,knot]{xy}
 %\xyoption{arc}
 %\usepackage{url}
@@ -179,7 +179,7 @@ G$_1$ on raku ts\"ukli faas, mis algab peale mitoosi ja kestab kuni DNA replikat
 %\qquad
 \begin{columns}
 \begin{column}{.5\textwidth}
-\begin{block}{G$_1$-faasis toimub}
+\begin{block}{} %G$_1$-faasis toimub
 \begin{itemize}
   \item \textbf{rakkude kasv} -- p\"armil kindlasti, imetaja rakkude puhul pole p\"aris kindel.
   \item \textbf{ettevalmistus S-faasiks} -- pre-replikatsiooni komplekside moodustumine.
@@ -189,7 +189,7 @@ G$_1$ on raku ts\"ukli faas, mis algab peale mitoosi ja kestab kuni DNA replikat
 \begin{column}{.5\textwidth} 
 \begin{center}
 \begin{figure}
-\includegraphics[width=.8\textwidth]{Zetterberg}
+\includegraphics[width=.6\textwidth]{Zetterberg}
 \caption*{\centering Rakkudel mis on G$_1$ alguses suuremad on G$_1$-s v\"aiksem juurdekasv.}
 \end{figure}
 \end{center}
@@ -294,13 +294,15 @@ G$_1$ on raku ts\"ukli faas, mis algab peale mitoosi ja kestab kuni DNA replikat
 \begin{columns}
 \begin{column}{.5\textwidth}
 \begin{center}
-\includegraphics[width=.8\textwidth]{Fission_yeast.jpg}
+% \includegraphics[width=.8\textwidth]{Fission_yeast.jpg}
+\includegraphics[width=\textwidth]{Hartwell1973}
 \end{center}
 \end{column}
 \begin{column}{.5\textwidth}
 \begin{block}{}
 \begin{itemize}
- \item Paul Nurse jt. poolt kirjeldati poolduvas p\"armis \emph{Schizosaccharomyces pombe} mutant/geen cdc2 mis reguleerib S-faasi ja mitoosi algust.
+ \item Leland H. (Lee) Hartwell jt. kirjeldasid 1970ndate alguses terve rea \emph{Saccharomyces cerevisiae} jagunemise mutante
+ % \item Paul Nurse jt. poolt kirjeldati poolduvas p\"armis \emph{Schizosaccharomyces pombe} mutant/geen cdc2 mis reguleerib S-faasi ja mitoosi algust.
 \end{itemize}
 \end{block}
 \end{column}
@@ -380,39 +382,63 @@ Restrikteerival temperatuuril kasvatamine n\"aitab et rakud on l\"abinud esimese
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{MPF kannuskonnas ja merisiilikus}
 
-\frame{\frametitle{MPF kannuskonnas ja merisiilikus}
-\begin{block}{}
-\begin{itemize}  
- \item Aafrika kannuskonna (\emph{Xenopus laevis}) ja merisiiliku (\emph{Arbacia punctulata}) meioosi uurimine 1970 ja 1980 aastatel viis \textbf{MPF} faktori (\emph{maturation-promoting factor}) kirjeldamiseni.
-\end{itemize}
-\end{block}
-}
+% \frame{\frametitle{MPF kannuskonnas ja merisiilikus}
+% \begin{block}{}
+% \begin{itemize}  
+%  \item Aafrika kannuskonna (\emph{Xenopus laevis}) ja merisiiliku (\emph{Arbacia punctulata}) meioosi uurimine 1970 ja 1980 aastatel viis \textbf{MPF} faktori (\emph{maturation-promoting factor}) kirjeldamiseni.
+% \end{itemize}
+% \end{block}
+% }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Ts\"ukliinid kannuskonnas}
 
-\frame{\frametitle{MPF kannuskonnas ja merisiilikus}
-\begin{block}{1982. aastal avastasid Tim Hunt jt. merisiiliku valgus\"unteesi uurides valgud mis akumuleerusid tugevalt interfaasis ja mille tase langes kiiresti peale oots\"u\"utide jagunemist.}
-\begin{itemize}   
-\item Nad nimetasid need ja teised sarnaselt k\"aituvad rakuts\"uklis ostsilleeruvad valgud \textbf{ts\"ukliinideks}.
-\item K\~{o}igepealt kirjeldati molekulmassist l\"ahtuvalt kaks ts\"ukliini - A ja B. 
-\item Sarnasus MPF ja ts\"ukliinide vahel oli silmatorkav.
+% \frame{\frametitle{MPF merisiilikus}
+% \begin{block}{1982. aastal avastasid Tim Hunt jt. merisiiliku valgus\"unteesi uurides valgud mis akumuleerusid tugevalt interfaasis ja mille tase langes kiiresti peale oots\"u\"utide jagunemist.}
+% \begin{itemize}   
+% \item Nad nimetasid need ja teised sarnaselt k\"aituvad rakuts\"uklis ostsilleeruvad valgud \textbf{ts\"ukliinideks}.
+% \item K\~{o}igepealt kirjeldati molekulmassist l\"ahtuvalt kaks ts\"ukliini - A ja B. 
+% \item Sarnasus MPF ja ts\"ukliinide vahel oli silmatorkav.
+% \end{itemize}
+% \end{block}
+% }
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Ts\"ukliinid kannuskonnas}
+\frame{\frametitle{MPF merisiilikus}
+\begin{block}{1982. aastal avastasid Tim Hunt jt. merisiiliku valgus\"unteesi uurides valgud mis akumuleerusid tugevalt interfaasis ja mille tase langes kiiresti peale oots\"u\"utide jagunemist}
+\end{block}
+\begin{columns}
+\begin{column}{.5\textwidth}
+\begin{center}
+\includegraphics[width=\textwidth]{Hunt1982.jpg}
+\end{center}
+\end{column}
+\begin{column}{.5\textwidth}
+\begin{block}{}
+\begin{itemize}
+ \item Nad nimetasid need ja teised sarnaselt k\"aituvad rakuts\"uklis ostsilleeruvad valgud \textbf{ts\"ukliinideks}
+\item K\~{o}igepealt kirjeldati kaks ts\"ukliini - A ja B
 \end{itemize}
 \end{block}
+\end{column}
+\end{columns}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Ts\"ukliini s\"untees on vajalik rakuts\"ukli t\"o\"os hoidmiseks}
+\subsection{Ts\"ukliini valgu s\"untees on vajalik rakuts\"ukli t\"o\"os hoidmiseks}
 
 \frame{\frametitle{Ts\"ukliini s\"untees on vajalik rakuts\"ukli t\"o\"os hoidmiseks}
 \begin{block}{Marc Kirschner ja Andrew Murray uurisid 1989 ts\"ukliinide rolli Xenopuse raku ekstraktides.}
 \begin{itemize}  
-\item P\~{o}hinedes Yoshio Masui varasemalt l\"abi viidud t\"o\"ol, l\~{o}id nad rakuvaba mudeli mis v\~{o}is l\"abida kolm ja enam ts\"uklit.
-\item Nad n\"aitasid, et valgus\"untees on vajalik \emph{in vitro} rakuts\"uklite l\"abimiseks.
+% \item P\~{o}hinedes Yoshio Masui varasemalt l\"abi viidud t\"o\"ol, l\~{o}id nad rakuvaba mudeli mis v\~{o}is l\"abida kolm ja enam ts\"uklit.
+% \item Nad n\"aitasid, et valgus\"untees on vajalik \emph{in vitro} rakuts\"uklite l\"abimiseks.
 \item \emph{In vitro} transkribeeritud merisiiliku ts\"ukliin B mRNA taastas rakuts\"ukli ekstraktides kus mRNA oli ens\"umaatiiselt lagundatud.
 \item Samuti taastas ts\"ukli in vitro transleeritud ts\"ukliin B valk estraktides kus valgus\"untees oli blokeeritud. 
 
-\end{itemize}
+\end{itemize} 
 \end{block}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{MurrayandKirchner1989}
+\end{center}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
