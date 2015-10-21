@@ -10,4 +10,4 @@
 *.snm
 *.synctex.gz
 *.toc
-*.pdf
+!rakutsykkel.pdf
