@@ -3,7 +3,7 @@ library(slidifyLibraries)
 # setwd("~/Dropbox/Onkobioloogia/")
 # author("Rakutsyklikontroll")
 
-setwd("~/Dropbox/Onkobioloogia/Rakutsyklikontroll/")
+# setwd("~/Dropbox/Onkobioloogia/Rakutsyklikontroll/")
 slidify("index.Rmd")
 browseURL("index.html")
 

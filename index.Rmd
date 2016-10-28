@@ -403,6 +403,13 @@ p21/p27 dko rakkudes on vähem tsükliin D-CDK komplekse [Cheng et al. 1999](htt
 
 <img src="http://emboj.embopress.org/content/embojnl/18/6/1571/F8.large.jpg" style="width:360px;" />
 
+---
+## CDK inhibiitorid imetajarakkude rakutsüklis
+
+![FIG. 3. Schematic representation of the mammalian cell cycle. The cyclin D/cdk4–6 complex phosphorylates the Rb protein leading to sequential phosphorylation by cyclinE/cdk2 and the release of free E2F. Phosphorylation of Rb relieves transcriptional repression of genes involved in the induction of S-phase entry. The ability of the cyclin/cdk enzymes to phosphorylate Rb is inhibited by cyclin-dependent kinase inhibitors (cdkis), the activation of which thus suppresses cell proliferation. The basic helix-loop-helix (bHLH) proneural genes NeuroD, Mash1, and Ngn1 control the switch from cell proliferation to neural differentiation by activation of the Kip/Cip Cdki family, thus preventing progression through the G1-S phases. The HLH proteins Id1 and Id3 (inhibitor of differentiation) repress neuronal determination by direct binding with proneural bHLH proteins, but also favor progression through the cell cycle via inhibition of the INK4 and Kip/Cip Cdki families. Activating and inhibiting influences are represented by blue arrows and red lines, respectively.](http://physrev.physiology.org/content/physrev/85/2/523/F3.large.jpg?width=800&height=600&carousel=1)
+
+<footer class="source">Pilt: Physiological Reviews. DOI: 10.1152/physrev.00055.2003 </footer>
+
 ---&twocol
 ## RB fosforülatsioon reguleerib restriktsioonipunkti läbimist
 
