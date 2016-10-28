@@ -66,7 +66,7 @@
 \institute[VTAK]{Tallinna Tehnika\"ulikool \\
   %\texttt{taavi.pall@ttu.ee}
 }
-\date[oktoober 2015]{22. oktoober 2015}
+\date[november 2016]{01. november 2016}
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
