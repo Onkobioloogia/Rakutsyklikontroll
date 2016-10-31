@@ -186,11 +186,11 @@ M-faasis toimub kromosoomide lahknemine
 --- &twocol
 ## Rad17: genoomi replitseeritakse ainult üks kord 
 
-Rad17 sensorvalgu fosfrüleerimine ATRi poolt on vajalik DNA-kahjustuste poolt indutseeriud G2-faasi blokiks
+Rad17 sensorvalgu fosfrüleerimine ATRi poolt on vajalik DNA-kahjustuste ja __üheahelalise DNA__ poolt indutseeriud G2-faasi blokiks
 
 ***=left
 
-Komosoomi aberratioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
+Komosoomi aberratsioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
 - Katkenud komosoomid (all vasak, nool). 
 - Endoreduplitseerunud kromosoomid (all parem).
 
