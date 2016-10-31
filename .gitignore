@@ -4,6 +4,7 @@
 *.html
 *.md
 !index.html
+!cellcyclecancer.html
 *.tex
 *.log
 *.nav

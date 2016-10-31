@@ -1,8 +1,7 @@
 ---
-title: "Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini"
+title: Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini
 output: html_document
 ---
-
 
 
 Molekulaarne muutus | Kliiniline tulemus
