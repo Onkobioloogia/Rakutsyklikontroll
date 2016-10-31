@@ -380,12 +380,11 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d
 ## Mitogeenne signalisatsioon inhibeerib p21Cip1 ja p27Kip1
 
 **PKB/Akt inhibeerib p21Cip1 ja p27Kip1 tuuma lokalisatsiooni**
-- HER-2/neu-vahendatud raku jagunemine käib läbi Akt aktivatsiooni, 
 - Akt seostub p21Cip1 ja fosforüülib selle treoniin-145, põhjustades tsütoplasma lokalisatsiooni
 - Akt raja blokeerimine dominant-negatiivse Akt mutandiga taastab p21Cip1 tuuma lokalisatsiooni ja rakkude jagunemist inhibeeriva toime
 - Sarnaselt toimub p27Kip1 inhibitsioon, seal fosforüülib Akt treoniin-157
 - Aktiveeritud Akt ekspresseerivad rakkudes ei suuda p27WT tekitada G1 arresti
-- Tsütoplasmaatiline p27 esines 41% (52/128) inimese primaarsetes rinnavähkides kus on kõrge Akt aktivatsiooni ([Liang et al. 2002](http://www.nature.com/nm/journal/v8/n10/full/nm761.html))
+- Tsütoplasmaatiline p27 esines 41% (52/128) inimese primaarsetes rinnavähkides kus on kõrge Akt aktivatsiooni, HER-2/neu-vahendatud raku jagunemine käib läbi Akt kinaasi ([Liang et al. 2002](http://www.nature.com/nm/journal/v8/n10/full/nm761.html))
 - Tsütoplasmaatiline p27 korreleerub halva prognoosiga
 
 ---&twocol
