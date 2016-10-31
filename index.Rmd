@@ -220,6 +220,7 @@ Komosoomi aberratsioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
 
 - Mutatsioonid mitoosikäävi kontrollpunktis võib põhjustada kromosomaalse ebastabiilsuse ja aneuploidsuse, üle 90% tahketest kasvajatest sisaldab kromosomaalseid aberratsioone.
 - BUB1 funktsiooni eksperimentaalne pärssimine on piisav rakkudes aneuploidse fenotüüpi tekkeks.
+- Bub1 on ser/tre-kinaas mis fosforüleerib ja inhibeerib APC/C kompleksi. APC/C on vajalik sekuriini Ub-sõltuvaks lagundamiseks, mistõttu vabaneb separaasi aktiivsus ja õdekromatiidid vabastatakse neid koos hoidvatest kohesiin 'rõngastest'.
 
 ***=right
 
