@@ -529,10 +529,10 @@ hematopoeetilised eellasrakud | | | üles | alla
 T rakud | | üles | | alla
 
 
----
-## Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini
+<!-- --- -->
+<!-- ## Molekulaarsed muutused kasvajates mis viivad rakutsükli deregulatsioonini -->
 
-[Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](cellcyclecancer.html)
+<!-- [Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](cellcyclecancer.html) -->
 
 
 --- .segue .dark .nobackground
