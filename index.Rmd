@@ -471,6 +471,22 @@ knitr::include_graphics("http://physrev.physiology.org/content/physrev/85/2/523/
 The cyclin D/cdk4–6 complex phosphorylates the Rb protein leading to sequential phosphorylation by cyclinE/cdk2 and the release of free E2F. Phosphorylation of Rb relieves transcriptional repression of genes involved in the induction of S-phase entry. The ability of the cyclin/cdk enzymes to phosphorylate Rb is inhibited by cyclin-dependent kinase inhibitors (cdkis), the activation of which thus suppresses cell proliferation. The basic helix-loop-helix (bHLH) proneural genes NeuroD, Mash1, and Ngn1 control the switch from cell proliferation to neural differentiation by activation of the Kip/Cip Cdki family, thus preventing progression through the G1-S phases. The HLH proteins Id1 and Id3 (inhibitor of differentiation) repress neuronal determination by direct binding with proneural bHLH proteins, but also favor progression through the cell cycle via inhibition of the INK4 and Kip/Cip Cdki families. Activating and inhibiting influences are represented by blue arrows and red lines, respectively.
 
 ---
+class: inverse, middle, center
+
+# pRb ja restriktsioonipunkti kontroll
+
+---
+
+## Viiruste onkogeenid seovad pRb-d
+
+- pRb tuumorsupressor tundub viirustele olulise märklauana:
+    - Inimese adenoviirus tüüp-5 E1A onkogeen seob pRb-d
+    - HPV E7 seob pRb-d
+    - SV40 largeTAg seob pRb
+- Need viiruste onkogeenid seovad hüpofosforüleeritud pRb valku
+    - hüpofosforüleeritud pRb on funktsionaalselt oluline
+
+---
 
 ## RB fosforülatsioon reguleerib restriktsioonipunkti läbimist
 
