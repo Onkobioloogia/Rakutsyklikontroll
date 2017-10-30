@@ -632,7 +632,9 @@ knitr::include_graphics("assets/img/RBvsCDKImuts.png")
 
 Võttes arvesse Myc-i võimet p15<sup>INK4B</sup> ekspressioon kinni panna ja seega TGF-beta jagunemist kontrolliv mõju nullida, siis
 - **normaalsetes rakkudes on Myc geen siiski TGF-beta raja kontrolli all**
-- Fosfo-SMAD3 istub koos E2F4/5 (repressiivsed E2F valgud), p107 ja C/EBPbeta valkudega Myc geeni promootoril ja paneb sellelt transkriptsiooni efektiivselt kinni.
+    - Smad3-4 aktiveerib koos Miz1 tf p15INK4 geeni ekspressiooni.
+    - SMAD3 istub koos E2F4/5 (repressiivsed E2F valgud), p107 ja C/EBPbeta valkudega Myc geeni promootoril ja paneb sellelt transkriptsiooni efektiivselt kinni.
+- Vähkides on TGF-b raja mutatsioonid sagedased: Smad4 mutatsioonid, TGF-b retseptori mutatsioonid
 
 ```{r}
 tab <- readr::read_delim("Rakud | p15INK4B | p21Cip1 | p57Kip2 | c-MYC
