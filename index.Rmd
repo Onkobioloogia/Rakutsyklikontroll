@@ -67,11 +67,16 @@ class: inverse, center, middle
 
 ## Jagunemist reguleerivad füsioloogilised signaalid
 
-- Türosiinkinaas retseptorid (mitogeenid).
+- Türosiinkinaas retseptorid (mitogeenid)
 
-- G-valk retseptorid (GPCR).
+- G-valk retseptorid (GPCR)
 
-- Toitainestaatus.
+- TGF-beta retseptorid
+
+- Integriinid
+
+- Toitainestaatus
+
 
 ---
 
@@ -127,37 +132,12 @@ M-faasis toimub kromosoomide lahknemine
 .pull-right[
 
 
-```{r, out.width='\\linewidth'}
+```{r, out.width=260}
 knitr::include_graphics("assets/img/figure_20-02.jpg")
+knitr::include_graphics("assets/img/newtmitosis.jpg")
 ```
 
 ]
-
----
-
-## Rakutsükkel liigub ühes suunas
-
-- Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
-
-- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
-
-- Replikatsioon peab eelnema kromosoomide lahknemisele.
-
-- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
-
-
----
-## Rakkude kasv vs jagunemine
-
-- Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks.
-
-- Selleks peab rakk 'kahekordistama' oma suuruse.
-
-- Pärmi katsed on näidanud, et **raku suurus valitseb rakutsükli üle: väikesed rakud ei jagune**.
-
-- Mutatsioonid mis kiirendavad rakutsükli kulgu põhjustavad väiksemate rakkude tekke.
-
-- Rakkude kasv toimub G1 faasis.
 
 ---
 
@@ -173,8 +153,76 @@ knitr::include_graphics("assets/img/figure_20-02.jpg")
 
 5. M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud
 
+---
+
+## Genoomi replitseeritakse ainult üks kord 
+
+**Rad17** sensorvalgu fosfrüleerimine ATRi poolt on vajalik DNA-kahjustuste ja __üheahelalise DNA__ poolt indutseeriud G2-faasi blokiks
+
+.pull-left[
+
+Komosoomi aberratsioonid RAD17 flox/− rakkudes. Metafaasi komosoomid:
+- Katkenud komosoomid (all vasak, nool)
+
+- Endoreduplitseerunud kromosoomid (all parem)
+
+]
+
+.pull-right[
+
+```{r, out.width=200}
+knitr::include_graphics("http://genesdev.cshlp.org/content/17/8/965/F4.medium.gif")
+```
+]
+
 
 ---
+
+## Replikatsiooni kontrollpunkt
+
+.pull-left[
+
+![](assets/img/1-s2.0-S0092867402011133-gr5.jpg)
+
+]
+
+.pull-right[
+
+- **Seriin-treoniin kinaas ATR** tagab fragiilsete saitide stabiilsuse
+
+- ATR aktiveeritakse vastuseks üheahelalisele DNA-le
+
+- Aktiveeritud ATR fosforüleerib CHK1 kinaasi ja käivitatakse signaalirada mis viib rakutsükli blokini
+
+]
+
+---
+
+## Käävi kontrollpunkt
+
+Mitoosikäävi kontrollpunkt (*spindle assembly checkpoint*, SAC) hoiab ära aneuploidia tekke
+
+.pull-left[
+
+- **BUB1** mutatsioonid põhjustavad kromosomaalse ebastabiilsuse ja aneuploidsuse, üle 90% tahketest kasvajatest sisaldab kromosomaalseid aberratsioone.
+
+- Bub1 on Ser/Tre-kinaas mis fosforüleerib ja inhibeerib APC/C kompleksi. APC/C on vajalik sekuriini Ub-sõltuvaks lagundamiseks, mistõttu vabaneb separaasi aktiivsus ja õdekromatiidid vabastatakse neid koos hoidvatest kohesiin 'rõngastest'.
+
+]
+
+.pull-right[
+
+See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.
+
+
+```{r, out.width=500}
+knitr::include_graphics("assets/img/F5.large.jpg")
+```
+
+]
+
+---
+
 ## G1 restriktsioonipunkt
 
 **Tagab mitogeense kontrolli rakutsükli kulgemise üle** 
@@ -247,6 +295,33 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
 ```{r}
 knitr::include_graphics("http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cyclin_Expression.svg/1280px-Cyclin_Expression.svg.png")
 ```
+
+
+---
+
+## Rakutsükkel liigub ühes suunas
+
+- Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
+
+- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
+
+- Replikatsioon peab eelnema kromosoomide lahknemisele.
+
+- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
+
+
+---
+## Rakkude kasv vs jagunemine
+
+- Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks.
+
+- Selleks peab rakk 'kahekordistama' oma suuruse.
+
+- Pärmi katsed on näidanud, et **raku suurus valitseb rakutsükli üle: väikesed rakud ei jagune**.
+
+- Mutatsioonid mis kiirendavad rakutsükli kulgu põhjustavad väiksemate rakkude tekke.
+
+- Rakkude kasv toimub G1 faasis.
 
 ---
 
