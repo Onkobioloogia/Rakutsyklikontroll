@@ -225,27 +225,31 @@ knitr::include_graphics("assets/img/F5.large.jpg")
 
 ## G1 restriktsioonipunkt
 
-**Tagab mitogeense kontrolli rakutsükli kulgemise üle** 
+Tagab mitogeense kontrolli rakutsükli kulgemise üle
 
-- Varases- ja keskmises G1 faasis on S-faasi sisenemine seerum sõltuv.
+- Varases ja keskmises G1 faasis on S-faasi sisenemine seerumsõltuv.
+
     - Samuti on rakud tundlikud TGF-beta anti-mitogeensele toimele.
-- Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest
+    
+- Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest.
 
 ---
 
-## Ka rakutsükli masinavärki reguleerivad kinaasid
+## Rakutsükli masinavärki reguleerivad kinaasid
 
 Rakutsükli kinaaside (**CDK**) substraadid:
-- Tsentrosoomi valke (*CP110*) fosforüleeritakse G1/S üleminekul tsentrosoomi duplitseerumiseks.
-- Enne S-faasi aktiveeritakse replikatsioonikompleks (*Treslin*).
-- *Histoonide* fosforüleerimine S ja M faasis kromatiini kondenseerumiseks.
-- Tuumamebraani valkude (*Lamiin*) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis.
+- Tsentrosoomi valke (CP110) fosforüleeritakse G1/S üleminekul tsentrosoomi duplitseerumiseks
+
+- Enne S-faasi aktiveeritakse replikatsioonikompleks (Treslin).
+
+- Histoonide fosforüleerimine S ja M faasis kromatiini kondenseerumiseks.
+- Tuumamebraani valkude (Lamiin) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis.
 
 ---
 
 ## Rakutsükli kinaasid (CDK)
 
-- CDK on Ser/tre-kinaasid.
+- CDK on Ser/Tre-kinaasid.
 - 40% aa järjestusest identsed.
 - **CDK aktiveerub seostumisel tsükliiniga**
     - tsükliin E + CDK2 kompleksi kinaasne aktiivsus tõuseb 400000 korda.
@@ -301,27 +305,13 @@ knitr::include_graphics("http://upload.wikimedia.org/wikipedia/commons/thumb/c/c
 
 ## Rakutsükkel liigub ühes suunas
 
-- Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
+Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
 
 - Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
 
 - Replikatsioon peab eelnema kromosoomide lahknemisele.
 
 - Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
-
-
----
-## Rakkude kasv vs jagunemine
-
-- Kui rakk on aktiivses kasvu-jagunemise tsüklis, siis peab see rakk kohe peale mitoosi läbimist valmistuma uueks jagunemiseks.
-
-- Selleks peab rakk 'kahekordistama' oma suuruse.
-
-- Pärmi katsed on näidanud, et **raku suurus valitseb rakutsükli üle: väikesed rakud ei jagune**.
-
-- Mutatsioonid mis kiirendavad rakutsükli kulgu põhjustavad väiksemate rakkude tekke.
-
-- Rakkude kasv toimub G1 faasis.
 
 ---
 
@@ -379,12 +369,14 @@ GF-Ras-Raf-Erk ja Wnt signaalirada kontrollib tsükliin D1 ekspressiooni ning st
 - **Peale R-punkti läbimist on tsükliinide E $\rightarrow$ A $\rightarrow$ B regulatsioon automaatne ja autonoomne**
 
 ---
-## Lisaks tsükliinidele reguleerivad tsükliin-sõltuvaid kinaase ka CDK inhibiitorid (CdkI)
 
+## CDK inhibiitorid
+
+Lisaks tsükliinidele reguleerivad tsükliin-sõltuvaid kinaase ka CDK inhibiitorid (CdkI).
 Praeguseks on kirjeldatud seitse erinevat CdkI-d
 - INK4 valgud (**in**hibitors of CD**K4**), mis inhibeerivad spetsiifiiselt ainult CDK4 ja CDK6
-    - **p16^INK4A** , p15^INK4B , p18^INK4C , p19^INK4D
-- **p21^Cip1** , **p27^Kip1** , p57^Kip2 : inhibeerivad kõiki teisi tsükliin-CDK komplekse
+    - p16<sup>INK4A</sup> , p15<sup>INK4B</sup>, p18<sup>INK4C</sup>, p19<sup>INK4D</sup>
+- p21<sup>Cip1</sup>, p27<sup>Kip1</sup>, p57<sup>Kip2</sup>: inhibeerivad kõiki teisi tsükliin-CDK komplekse
 
 ```{r, out.width=400}
 knitr::include_graphics("assets/img/p16-p27mech.png")
@@ -394,30 +386,30 @@ knitr::include_graphics("assets/img/p16-p27mech.png")
 
 ---
 
-## TGF-beta indutseerib p15INK4B
+## TGF-b indutseerib p15<sup>INK4B</sup>
 
-- **TGF-beta peamine raku jagunemist pidurdav mehhanism töötab läbi p15^INK4B**.
+- **TGF-beta peamine raku jagunemist pidurdav mehhanism töötab läbi p15<sup>INK4B</sup>**
 
-- p15INK4B blokeerib tsükliin D-CDK4/6 komplekside moodustumise ja inhibeerib olemasolevaid.
+- p15<sup>INK4B</sup> blokeerib tsükliin D-CDK4/6 komplekside moodustumise ja inhibeerib olemasolevaid
 
-- Ilma aktiivse tsükliin D-CDK4/6 pole rakutsükkel võimeline arenema läbi varase ja keskmise G1 faasi R-punktini.
+- Ilma aktiivse tsükliin D-CDK4/6 pole rakutsükkel võimeline arenema läbi varase ja keskmise G1 faasi R-punktini
 
-- Kui rakk on juba R-punkti läbinud pole enam D-CDK4/6 aktiivsus vajalik.
+- Kui rakk on juba R-punkti läbinud pole enam D-CDK4/6 aktiivsus vajalik
 
-- Peale R-punkti muutub rakk 'tundetuks' ka TGF-beta inhibeerivale toimele.
+- Peale R-punkti muutub rakk 'tundetuks' ka TGF-b inhibeerivale toimele
 
-- [CDKN2A/B lookuse naabruses asuv 9p21.3 lookus on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3).
+- [CDKN2A/B lookuse naabruses asuv 9p21.3 lookus on üks sagedamini muteerunud piirkondi eri tüüpi vähkides](http://rpubs.com/tapa741/tuumorsupressorgeenid) (vt. Supplementary Table 3)
 
 ---
 
-## p21^Cip1 aktiveeritakse vastusena stressile
+## p21<sup>Cip1</sup> aktiveeritakse vastusena stressile
 
-- p21^Cip1 toimib läbi terve rakutsükli
-- TGF-beta indutseerib nõrgalt ka p21^Cip1
-- **Peamine p21^Cip1 induktor on DNA kahjustused**
-- p21^Cip1 inhibeerib E-CDK2, A-CDK2, A-CDC2, B-CDC2 komplekse
+- p21<sup>Cip1</sup> toimib läbi terve rakutsükli
+- TGF-beta indutseerib nõrgalt ka p21<sup>Cip1</sup>
+- **Peamine p21<sup>Cip1</sup> induktor on DNA kahjustused**
+- p21<sup>Cip1</sup> inhibeerib E-CDK2, A-CDK2, A-CDC2, B-CDC2 komplekse
 - Kui DNA kahjustused on parandatud, siis võetakse p21^Cip1 -blokk maha
-- p21^Cip1 inhibeerib ka DNA replikatsiooni masinavärgi valku PCNA (*proliferating cell nuclear antigen*)
+- p21<sup>Cip1</sup> inhibeerib ka DNA replikatsiooni masinavärgi valku PCNA (*proliferating cell nuclear antigen*)
 
 ```{r}
 knitr::include_graphics("http://www-bioc.rice.edu/~shamoo/threeclamps.jpg")
@@ -427,25 +419,28 @@ knitr::include_graphics("http://www-bioc.rice.edu/~shamoo/threeclamps.jpg")
 
 ---
 
-## Mitogeenne signalisatsioon inhibeerib p21Cip1 ja p27Kip1
+## Mitogeenne signalisatsioon inhibeerib p21<sup>Cip1</sup> ja p27<sup>Kip1</sup>
 
-**PKB/Akt inhibeerib p21Cip1 ja p27Kip1 tuuma lokalisatsiooni**
-- Akt seostub p21Cip1 ja fosforüülib selle treoniin-145, põhjustades tsütoplasma lokalisatsiooni
-- Akt raja blokeerimine dominant-negatiivse Akt mutandiga taastab p21Cip1 tuuma lokalisatsiooni ja rakkude jagunemist inhibeeriva toime
-- Sarnaselt toimub p27Kip1 inhibitsioon, seal fosforüülib Akt treoniin-157
-- Aktiveeritud Akt ekspresseerivad rakkudes ei suuda p27WT tekitada G1 arresti
-- Tsütoplasmaatiline p27 esines 41% (52/128) inimese primaarsetes rinnavähkides kus on kõrge Akt aktivatsiooni, HER-2/neu-vahendatud raku jagunemine käib läbi Akt kinaasi ([Liang et al. 2002](http://www.nature.com/nm/journal/v8/n10/full/nm761.html))
-- Tsütoplasmaatiline p27 korreleerub halva prognoosiga
+**PKB/Akt inhibeerib p21<sup>Cip1</sup> ja p27<sup>Kip1</sup> tuuma lokalisatsiooni**
+- Akt seostub p21<sup>Cip1</sup> ja fosforüülib selle Tre-145, põhjustades tsütoplasma lokalisatsiooni
+    - Akt raja blokeerimine dominant-negatiivse Akt mutandiga taastab p21Cip1 tuuma lokalisatsiooni ja rakkude jagunemist inhibeeriva toime
+- Sarnaselt toimub p27<sup>Kip1</sup> inhibitsioon, seal fosforüülib Akt Tre-157
+    - Aktiveeritud Akt ekspresseerivad rakkudes ei suuda p27WT tekitada G1 arresti
+    - Tsütoplasmaatiline p27 esines 41% (52/128) inimese primaarsetes rinnavähkides kus on kõrge Akt aktivatsiooni, HER-2/neu-vahendatud raku jagunemine käib läbi Akt kinaasi ([Liang et al. 2002](http://www.nature.com/nm/journal/v8/n10/full/nm761.html))
+    - Tsütoplasmaatiline p27 korreleerub halva prognoosiga
 
 ---
 
-## p21Cip1 ja p27Kip1 seostumine on vajalik D-CDK4/6 aktivatsiooniks
+## p21<sup>Cip1</sup> ja p27<sup>Kip1</sup> seostumine on vajalik D-CDK4/6 aktivatsiooniks
 
 .pull-left[
 
-- Primaarsed hiire fibroblastid, milles puuduvad nii p21 ja p27 ei suuda moodustada aktiivseid tsükliin D-CDK komplekse, 
+- Primaarsed hiire fibroblastid, milles puuduvad nii p21 ja p27 ei suuda moodustada aktiivseid tsükliin D-CDK komplekse,
+
     - ekspresseerivad palju vähem tsükliin D ning
+    
     - neis ei lokaliseeru  tsükliin D tuuma
+    
 - Tsükliin D-CDK4/6 tase tõuseb rakus varases-keskmises G1 faasis ja korjab ära p21 ja p27 nii, et see ei saa inhibeerida tsükliin E-CDK2
 
 ]
@@ -476,6 +471,7 @@ knitr::include_graphics("http://physrev.physiology.org/content/physrev/85/2/523/
 The cyclin D/cdk4–6 complex phosphorylates the Rb protein leading to sequential phosphorylation by cyclinE/cdk2 and the release of free E2F. Phosphorylation of Rb relieves transcriptional repression of genes involved in the induction of S-phase entry. The ability of the cyclin/cdk enzymes to phosphorylate Rb is inhibited by cyclin-dependent kinase inhibitors (cdkis), the activation of which thus suppresses cell proliferation. The basic helix-loop-helix (bHLH) proneural genes NeuroD, Mash1, and Ngn1 control the switch from cell proliferation to neural differentiation by activation of the Kip/Cip Cdki family, thus preventing progression through the G1-S phases. The HLH proteins Id1 and Id3 (inhibitor of differentiation) repress neuronal determination by direct binding with proneural bHLH proteins, but also favor progression through the cell cycle via inhibition of the INK4 and Kip/Cip Cdki families. Activating and inhibiting influences are represented by blue arrows and red lines, respectively.
 
 ---
+
 ## RB fosforülatsioon reguleerib restriktsioonipunkti läbimist
 
 .pull-left[
