@@ -91,19 +91,6 @@ v\"ahki.
   \end{itemize}
 \end{block}
 
-\begin{columns}
-  \begin{column}{.49\textwidth}
-  \begin{center}
-  \includegraphics[width=\textwidth]{uesc_04_img0230.jpg}
-  \end{center}
-\end{column}
-\begin{column}{.49\textwidth}
-  \begin{center}
-  \includegraphics[width=.73\textwidth]{mri-brain-showing-tumor-1688808.jpg}
-  \end{center}
-\end{column}
-\end{columns}
-
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Rakuts\"ukkel}

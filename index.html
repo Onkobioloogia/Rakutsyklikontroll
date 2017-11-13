@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>pRb ja rakutsüklikontroll</title>
+    <title>Eukarüootne rakutsükli regulatsioon</title>
     <meta charset="utf-8">
     <meta name="author" content="Taavi Päll" />
-    <meta name="date" content="2017-10-30" />
+    <meta name="date" content="2017-11-02" />
     <link href="libs/remark-css-0.0.1/example.css" rel="stylesheet" />
     <link rel="stylesheet" href="ubuntu-mono.css" type="text/css" />
   </head>
@@ -12,88 +12,36 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# pRb ja rakutsüklikontroll
-## Onkobioloogia
+# Eukarüootne rakutsükli regulatsioon
 ### Taavi Päll
-### 2017-10-30
+### 2017-11-02
 
 ---
 
+class: inverse
 
 
 
+background-image: url(assets/art_jpeg/chapter_20_opener.jpg)
 
-background-image: url(http://www.nature.com/nrc/journal/v4/n3/images/nrc1297-f2.jpg)
-
-???
-
-Image credit: Nature Reviews Cancer
-
-
----
-class: inverse, center, middle 
-
-# Recap
-
-
----
-class: middle
-
-
-**Tuumorsupressorgeen** on geen mis hoiab ära raku transformatsiooni. Kui see geen muteerub rakus ja tema funktsioon kaob või väheneb, siis võib see rakk areneda vähiks. Tavaliselt on vaja ka teisi onkogeenseid lisamuutusi  (Wikipedia).
+.footer[
+A two-cell *C. elegans* embryo stained with anti-tubulin (red), anti-CeBUB-1 spindle checkpoint protein (green). DNA is stained with DAPI (blue).
+]
 
 ---
 class: inverse, center, middle
 
-# Rakutsükkel
+# Rakutsükkel ja selle kontroll
 
 ---
 
 ## Rakutsükkel
 
-- Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks.
+- Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks
 
-- Rakutsüklit kontrolliv 'masinavärk' on universaalne kõigis organismi rakutüüpides.
+- Rakutsüklit kontrolliv 'masinavärk' on universaalne kõigis organismi rakutüüpides
 
-- Raku rakutsüklisse sisenemist ja 'masinavärgi käivitamist' reguleerivad raku väliskeskkonna signaalid.
-
----
-
-## Rakutsüklit reguleerivad rakuvälised signaalid
-
-- Eksponentsiaalselt kasvav imetajarakk peab peale igat raku jagunemist otsustama, 
-    - kas kasvada ja jaguneda veel üks tsükkel või 
-    - jääda vaikeolekusse.
-
-- Seda otsust mõjutavad mitogeensed kasvufaktorid -- kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse.
-
-
----
-
-## Jagunemist reguleerivad füsioloogilised signaalid
-
-- Türosiinkinaas retseptorid (mitogeenid)
-
-- G-valk retseptorid (GPCR)
-
-- TGF-beta retseptorid
-
-- Integriinid
-
-- Toitainestaatus
-
-
----
-
-## Ka rakutsüklist väljumist reguleerivad rakuvälised signaalid
-
-Ka raku vaikeolekuse minek võib olla aktiivselt reguleeritud.
-
-- TGF-beta on keskne anti-mitogeen.
-
-- Vaikeolek on rakkudel enamasti pöörduv.
-
-- Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **post-mitootilisteks**, nt. neuronid
+- Kõrgematel organismidel reguleerivad raku rakutsüklisse sisenemist ja 'masinavärgi käivitamist' raku väliskeskkonna signaalid
 
 ---
 
@@ -103,11 +51,12 @@ Ka raku vaikeolekuse minek võib olla aktiivselt reguleeritud.
 
 - **G1** algab peale mitoosi ja kestab kuni DNA replikatsiooni alguseni S faasis,
     - rakk kasvab ja valmistub sisenema S faasi
+    - toimub ettevalmistus S-faasiks – pre-replikatsiooni komplekside moodustumine
 - **S-faas**is toimub genoomse DNA süntees
 - **G2 faas** on intervall DNA sünteesi eduka lõpu ja mitoosis toimuva kromosoomide lahknemise vahel
     - suhteliselt lühike
     - mitoosis vajalike valkude süntees
-- **M-faas** mitoos.
+- **M-faas** mitoos
 ]
 
 .pull-right[
@@ -115,6 +64,99 @@ Ka raku vaikeolekuse minek võib olla aktiivselt reguleeritud.
 &lt;img src="assets/img/figure_20-01.jpg" width="\linewidth" style="display: block; margin: auto;" /&gt;
 
 ]
+---
+
+## Rakutsükli läbimist kontrollib reguleeritud valkude fosforüleerimine ja lagundamine
+
+- Rakutsüklit reguleerivad tsükliin -- tsükliin sõltuvad kinaasid (tsükliin-kinaas, *cyclin/CDK*)
+
+- Igas rakutsükli faasis on aktiivne spetsiifiline tsükliin-kinaas
+
+- Tsükliin-kinaase on kolm rühma: G1 tsükliin-kinaasid (D/4,6; E/2), S faasi tsükliin-kinaasid (A/2) ja mitoosi tsükliin-kinaasid (B/CDC2)
+
+- Rakutsüklis on olulised kaks ubikvitiin ligaasi kompleksi SCF ja APC (*anaphase promoting complex - cyclosome*)
+
+- Rakutsükli kontrollpunktid (*checkpoints*) monitoorivad, et rakutsükli faaside üleminekuks oleks eelnev faas edukalt ja kvaliteetselt läbitud
+
+
+---
+
+## Rakutsükli läbimist kontrollib reguleeritud valkude fosforüleerimine ja lagundamine
+
+&lt;img src="assets/art_jpeg/figure_20-02.jpg" width="460" style="display: block; margin: auto;" /&gt;
+
+---
+
+## G1 tsükliinid/CDK
+
+- G1 cyclin/CDK kompleksid foforüleerivad ja reguleerivad transkriptsioonifaktoreid mis kontrollivad genoomi replikatsiooniks vajalike geenide ekspressiooni
+    - nukleotiidide sünteesiraja ensüümid,
+    - DNA polümeraasid jt.
+- Kõrgematel organismidel reguleerivad rakutsüklit rakuvälised signaalid:
+    - eksponentsiaalselt kasvav imetajarakk peab peale igat raku jagunemist otsustama, 
+    - kas kasvada ja jaguneda veel üks tsükkel või jääda vaikeolekusse.
+    - Seda otsust mõjutavad mitogeensed kasvufaktorid -- kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse.
+
+
+---
+
+## Raku jagunemist reguleerivad füsioloogilised signaalid
+
+.pull-left[
+- Türosiinkinaas retseptorid (mitogeenid)
+
+- G-valk retseptorid (GPCR)
+
+- TGF-beta retseptorid
+
+- Integriinid
+
+- Toitainestaatus
+]
+
+
+.pull-right[
+- Raku vaikeolekuse minek võib olla aktiivselt reguleeritud
+
+- TGF-beta on keskne anti-mitogeen
+
+- Vaikeolek on rakkudel enamasti pöörduv
+
+- Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **post-mitootilisteks**, nt. neuronid
+]
+
+---
+
+## S-faasi tsükliinid/CDK
+
+- Sünteesitakse hilises G1 faasis, kuid on siis tsükliin-kinaasi inhibiitorite poolt inhibeeritud
+- G1 tsükliinide täisaktiivsuse saavutamisel fosforüleeritakse S-faasi CDK inhibiitoreid ja saadetakse proteolüütilisse lagundamisse
+- Aktiveeritud S faasi tsükliin-kinaasid aktiveerivad replikatsiooni oridele assambleeritud pre-replikatsioonikompleksid ja initseeritakse DNA replikatsioon
+
+---
+
+## M-faasi tsükliinid/CDK
+
+- Sünteesitakse hilises S ja G2 faasis, kuid on inhibeeritud läbi inhibitoorsete aa saitide fosforülatsiooni
+- Aktivatsioonil fosforüleerib paljusid valke, 
+    - mis on seotud kromatiini kondensatsiooniga,
+    - tuumamembraani ja tuumapoori kompleksi valke,
+    - mikrotuubulitega assotseerunud valke,
+    - käävi valke
+
+---
+
+## Rakutsükli kontrollpunktid e *checkpoints*
+
+1. G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane.
+
+2. S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.
+
+3. G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud.
+
+4. eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
+
+5. M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud
 
 ---
 
@@ -138,20 +180,6 @@ M-faasis toimub kromosoomide lahknemine
 &lt;img src="assets/img/figure_20-02.jpg" width="260" style="display: block; margin: auto;" /&gt;&lt;img src="assets/img/newtmitosis.jpg" width="260" style="display: block; margin: auto;" /&gt;
 
 ]
-
----
-
-## Rakutsükli kontrollpunktid e *checkpoints*
-
-1. G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane.
-
-2. S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.
-
-3. G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud.
-
-4. eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
-
-5. M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud
 
 ---
 
