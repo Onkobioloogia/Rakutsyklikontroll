@@ -1,15 +1,8 @@
 ---
-title       : "Eukarüootne rakutsükli regulatsioon"
+title       : "Rakutsükli regulatsioon"
 author      : "Taavi Päll"
 date        : "2017-11-14"
-output: 
-  xaringan::moon_reader:
-    css: ["default", "ubuntu-mono.css"]
-    lib_dir: libs
-    nature:
-    highlightStyle: github
-    highlightLines: true
-    countIncrementalSlides: false
+output: xaringan::moon_reader
 ---
 class: inverse
 
@@ -57,7 +50,7 @@ class: inverse, center, middle
 .pull-right[
 
 ```{r, out.width="\\linewidth"}
-knitr::include_graphics("assets/img/figure_20-01.jpg")
+knitr::include_graphics("figures/figure_20-01.jpg")
 ```
 
 ]
@@ -177,8 +170,8 @@ M-faasis toimub kromosoomide lahknemine
 
 
 ```{r, out.width=260}
-knitr::include_graphics("assets/img/figure_20-02.jpg")
-knitr::include_graphics("assets/img/newtmitosis.jpg")
+knitr::include_graphics("figures/figure_20-02.jpg")
+knitr::include_graphics("figures/newtmitosis.jpg")
 ```
 
 ]
@@ -212,7 +205,7 @@ knitr::include_graphics("http://genesdev.cshlp.org/content/17/8/965/F4.medium.gi
 
 .pull-left[
 
-![](assets/img/1-s2.0-S0092867402011133-gr5.jpg)
+![](figures/1-s2.0-S0092867402011133-gr5.jpg)
 
 ]
 
@@ -246,7 +239,7 @@ See BUB1-vaigistatud rakk on kaotanud kromosoomid 1 ja 6.
 
 
 ```{r, out.width=500}
-knitr::include_graphics("assets/img/F5.large.jpg")
+knitr::include_graphics("figures/F5.large.jpg")
 ```
 
 ]
@@ -286,7 +279,7 @@ Rakutsükli kinaaside (**CDK**) substraadid:
     - Tsükliinid tagavad ka substraat spetsiifilisuse.
 
 ```{r, out.width=400, fig.align='center'}
-knitr::include_graphics("assets/img/A-CDK2anno.png")
+knitr::include_graphics("figures/A-CDK2anno.png")
 ```
 
 .footer[Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Jeffrey, P.D.,  Russo, A.A.,  Polyak, K.,  Gibbs, E.,  Hurwitz, J.,  Massague, J.,  Pavletich, N.P. (1995) Nature 376: 313-320]
@@ -409,7 +402,7 @@ Praeguseks on kirjeldatud seitse erinevat CdkI-d
 - p21<sup>Cip1</sup>, p27<sup>Kip1</sup>, p57<sup>Kip2</sup>: inhibeerivad kõiki teisi tsükliin-CDK komplekse
 
 ```{r, out.width=400}
-knitr::include_graphics("assets/img/p16-p27mech.png")
+knitr::include_graphics("figures/p16-p27mech.png")
 ```
 
 .footer[Crystal structure of the p27Kip1 cyclin-dependent-kinase inhibitor bound to the cyclin A-Cdk2 complex. Russo, A.A.,  Jeffrey, P.D.,  Patten, A.K.,  Massague, J.,  Pavletich, N.P. (1996) Nature 382: 325-331. Structural basis for inhibition of the cyclin-dependent kinase Cdk6 by the tumour suppressor p16INK4a. Russo, A.A.,  Tong, L.,  Lee, J.O.,  Jeffrey, P.D.,  Pavletich, N.P. (1998) Nature 395: 237-243.]
@@ -650,7 +643,7 @@ G1/S faasi kiire ülemineku tagavad positiivse tagasiside mehhanismid
 - D-tsükliini inhibiitorite p15/p16 mutatsioonid ja RB mutatsioonid välistavad teineteist vähkides
 
 ```{r}
-knitr::include_graphics("assets/img/RBvsCDKImuts.png")
+knitr::include_graphics("figures/RBvsCDKImuts.png")
 ```
 
 
