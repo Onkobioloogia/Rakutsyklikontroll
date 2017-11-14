@@ -1,5 +1,5 @@
 ---
-title       : "Rakutsükli regulatsioon"
+title       : "Eukarüootne rakutsükli regulatsioon"
 author      : "Taavi Päll"
 date        : "2017-11-14"
 output: xaringan::moon_reader
@@ -7,19 +7,14 @@ output: xaringan::moon_reader
 class: inverse
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
+knitr::opts_chunk$set(echo = FALSE, fig.align = 'center', out.width = "70%")
 ```
 
-background-image: url(assets/art_jpeg/chapter_20_opener.jpg)
+background-image: url(figures/chapter_20_opener.jpg)
 
 .footer[
 A two-cell *C. elegans* embryo stained with anti-tubulin (red), anti-CeBUB-1 spindle checkpoint protein (green). DNA is stained with DAPI (blue).
 ]
-
----
-class: inverse, center, middle
-
-# Rakutsükkel ja selle kontroll
 
 ---
 
@@ -74,7 +69,7 @@ knitr::include_graphics("figures/figure_20-01.jpg")
 ## Rakutsükli läbimist kontrollib reguleeritud valkude fosforüleerimine ja lagundamine
 
 ```{r, out.width=460}
-knitr::include_graphics("assets/art_jpeg/figure_20-02.jpg")
+knitr::include_graphics("figures/figure_20-02.jpg")
 ```
 
 ---
@@ -82,47 +77,23 @@ knitr::include_graphics("assets/art_jpeg/figure_20-02.jpg")
 ## G1 tsükliinid/CDK
 
 - G1 cyclin/CDK kompleksid foforüleerivad ja reguleerivad transkriptsioonifaktoreid mis kontrollivad genoomi replikatsiooniks vajalike geenide ekspressiooni
+
     - nukleotiidide sünteesiraja ensüümid,
     - DNA polümeraasid jt.
+
 - Kõrgematel organismidel reguleerivad rakutsüklit rakuvälised signaalid:
     - eksponentsiaalselt kasvav imetajarakk peab peale igat raku jagunemist otsustama, 
     - kas kasvada ja jaguneda veel üks tsükkel või jääda vaikeolekusse.
-    - Seda otsust mõjutavad mitogeensed kasvufaktorid -- kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse.
-
-
----
-
-## Raku jagunemist reguleerivad füsioloogilised signaalid
-
-.pull-left[
-- Türosiinkinaas retseptorid (mitogeenid)
-
-- G-valk retseptorid (GPCR)
-
-- TGF-beta retseptorid
-
-- Integriinid
-
-- Toitainestaatus
-]
-
-
-.pull-right[
-- Raku vaikeolekuse minek võib olla aktiivselt reguleeritud
-
-- TGF-beta on keskne anti-mitogeen
-
-- Vaikeolek on rakkudel enamasti pöörduv
-
-- Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **postmitootilisteks**, nt. neuronid
-]
+    - Seda otsust mõjutavad mitogeensed kasvufaktorid -- kui neid on piisavalt siis rakk jätkab jagunemist, vastasel juhul jääb rakk vaikeolekusse -- või toitainestaatus (pärm)
 
 ---
 
 ## S-faasi tsükliinid/CDK
 
 - Sünteesitakse hilises G1 faasis, kuid on siis tsükliin-kinaasi inhibiitorite poolt inhibeeritud
+
 - G1 tsükliinide täisaktiivsuse saavutamisel fosforüleeritakse S-faasi CDK inhibiitoreid ja saadetakse proteolüütilisse lagundamisse
+
 - Aktiveeritud S faasi tsükliin-kinaasid aktiveerivad replikatsiooni oridele assambleeritud pre-replikatsioonikompleksid ja initseeritakse DNA replikatsioon
 
 ---
@@ -140,41 +111,245 @@ knitr::include_graphics("assets/art_jpeg/figure_20-02.jpg")
 
 ## Rakutsükli kontrollpunktid e *checkpoints*
 
-1. G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane.
+1. G1-S DNA kahjustuste kontrollpunkt: S-faasi sisenemine on blokeeritud kui genoom on vigane
 
-2. S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele.
+2. S-faasi kontroll: replikatsioon aeglustub või seiskub vastusena DNA kahjustustele
 
-3. G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud.
+3. G2-M kontroll blokeerib raku mitoosi sisenemise kuni genoomi replikatsioon S-faasis on lõpule viidud
 
-4. eksisteerib veel hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'.
+4. Hilise G2 dekatenatsiooni kontroll mis monitoorib, et kromosoomid ei oleks omavahel 'sõlmes'
 
 5. M faasis kontrollpunkt mis blokeerib sisenemise anafaasi kuni kõik kromosoomid on korrektselt käävile kinnitunud
 
 ---
+class: inverse, middle, center
 
-## Mitoosi faasid
+# Eksperimentaalsed süsteemid
 
+---
+
+## Imetajarakud: lahustuv faktor reguleerib rakutsüklit
+
+Kui G1, S või G2 faasi rakud fuseeriti M-faasi rakkudega, siis lagunes neil tuumamembraan ja kromosoomid hakkasid kondenseeruma
+```{r}
+knitr::include_graphics("figures/figure_20-03a.jpg")
+```
+
+---
+
+G1, S või G2 faasi rakkude fuseerumisel M-faasi rakkudega viib neil kromosoomide kondenseerumiseni
+
+```{r}
+knitr::include_graphics("figures/figure_20-03b.jpg")
+```
+
+
+---
+
+## S-faasis rakud indutseerivad DNA replikatsiooni
+
+- S-faasis olevate rakkude fuseerimisel G1 rakkudega indutseerivad DNA sünteesi
+
+- S-faasis olevate rakkude fuseerimisel G2 rakkudega aga DNA sünteesi ei indutseerita
+
+--
+
+- Nüüd me teame, et S-faasi tsükliin-kinaas aktiveerib prereplikatsiooni kompleksid, mis on olemas küll G1 tuumas kuid puuduvad juba S-faasi läbinud rakkudes
+
+
+---
+
+## Pärmi geneetika
+
+- _Saccharomyces cerevisiae_ ja _Schizosaccharomyces pombe_ jagunemisdefektidega mutandid aitasid identifitseerida rakutsüklit reguleerivad faktorid
+
+- Mõlemal pärmil esinevad **temperatuurisensitiivsed** rakutsükli mutandid mida on võimalik mikroskoopia abi detekteerida
+
+- Selliseid rakutsükli mutante nimetatakse __cdc__ ( _cell-division cycle_ )
+
+---
+
+## Funktsionaalne komplementatsioon
+
+
+```{r}
+knitr::include_graphics("figures/figure_20-04.jpg")
+```
+
+---
+
+## Pärmist isoleeritud rakutsükli regulaatorid
+
+```{r, out.width='50%'}
+knitr::include_graphics("figures/table_20-01_part_1.jpg")
+```
+
+---
+
+## Pärmi regulaatorite selgroogsete homoloogid
+
+```{r, out.width='50%'}
+knitr::include_graphics("figures/table_20-01_part_2.jpg")
+```
+
+---
+
+## Xenopuse mudel
+
+- Biokeemilisteks uuringuteks on vaja palju materjali
+- Amfiibide ja mereselgrootute munad ja varajase embrüo rakud läbivad esimesed jagunemised sünkroonis, 
+    - mis võimaldab eraldada palju materjali samas rakutsükli faasis olevatest rakkudest 
+
+
+---
+## Mitoosi kontroll MPF ja tsükliinide poolt
+
+- _Xenopus laevise_ ootsüütide küpsemise mudel võimaldas identifitseerida mitoosi indutseeriva faktori
+- Konna ootsüüdid replitseerivad oma DNA ja arresteeruvad G2 faasis 8 kuuks, kasvades sel ajal umbes 1 mm suuruseks
+- Isase konna poolt stimuleeritakse emasel progesterooni vabanemine ja G2 ootsüüdid läbivad esimese meioosi ja jäävad teise meioosi metafaasi
+-  Selles faasis olevaid rakke nimetatakse __munadeks__
+- Viljastamisel läbib muna meioosi lõpuni
+- Viljastatud muna haploidne __pronukleus__ fuseerub haploidse spermi pronukleusega 
+- Järgnevad 11 sünkroonset rakutsüklit, peale mida jagunemine aeglustub ja muutub asünkroonseks
+
+```{r}
+knitr::include_graphics("figures/figure_20-05a.jpg")
+```
+
+---
+
+```{r, out.width='90%'}
+knitr::include_graphics("figures/figure_20-05b.jpg")
+```
+
+.footer[Xenopuse ootsüüdid]
+
+---
+
+
+## Progesteroon indutseerib küpsemise ka in vitro
+
+
+```{r}
+knitr::include_graphics("figures/figure_20-06.jpg")
+```
+
+---
+
+## MPF aktiivsus ootsüütides
+
+
+```{r}
+knitr::include_graphics("figures/figure_20-07.jpg")
+```
+
+
+---
+
+## Tsükliline valgusüntees merisiilikus
+
+- Radioakatiivselt märgistatud valgulüsaadid näitavad tsüklilist valgusünteesi ja lagundamist
+
+```{r, out.width='50%'}
+knitr::include_graphics("figures/figure_20-08.jpg")
+```
+
+---
+
+## Kinaasne aktiivsus
+
+- MPF on võimeline ka fosforüleerima histoon H1-te ja see toimub sünkroonis tsükliini tasemega
+- Mitoos on sõltuv tsükliin B-st 
+
+```{r}
+knitr::include_graphics("figures/figure_20-09.jpg")
+```
+
+
+---
+class: inverse, middle, center
+
+# Rakutsükli kinaasid
+
+---
+
+## Rakutsükli masinavärki reguleerivad kinaasid
+
+Rakutsükli kinaaside (**CDK**) substraadid:
+- Tsentrosoomi valke (CP110) fosforüleeritakse G1/S üleminekul tsentrosoomi duplitseerumiseks
+
+- Enne S-faasi aktiveeritakse replikatsioonikompleks (Treslin)
+
+- Histoonide fosforüleerimine S ja M faasis kromatiini kondenseerumiseks.
+- Tuumamebraani valkude (Lamiin) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis
+
+---
+
+## Rakutsükli kinaasid (CDK)
+
+- CDK on Ser/Tre-kinaasid.
+- 40% aa järjestusest identsed.
+- **CDK aktiveerub seostumisel tsükliiniga**
+    - tsükliin E + CDK2 kompleksi kinaasne aktiivsus tõuseb 400000 korda.
+    - Tsükliinid tagavad ka substraat spetsiifilisuse.
+
+```{r, out.width=400, fig.align='center'}
+knitr::include_graphics("figures/A-CDK2anno.png")
+```
+
+.footer[Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Jeffrey, P.D.,  Russo, A.A.,  Polyak, K.,  Gibbs, E.,  Hurwitz, J.,  Massague, J.,  Pavletich, N.P. (1995) Nature 376: 313-320]
+
+---
+## Iga tsükliin paardub kindla kinaasiga kindlas rakusükli faasis
+ 
 .pull-left[
 
-M-faasis toimub kromosoomide lahknemine
-
-- **Profaasis** toimub kromosoomide kondenseerumine
-      - Moodustub **mitoosikääv**
-- **Metafaasis** joonduvad õdekromatiidid
-- **Anafaasis** toimub õdekromatiidide lahknemine poolustele
-- **Telofaasis** moodustub uuesti tuumamembraan ja tuum
-- **Tsütokinees**: moodustub kaks tütarrakku
-
-]
-.pull-right[
-
-
-```{r, out.width=260}
-knitr::include_graphics("figures/figure_20-02.jpg")
-knitr::include_graphics("figures/newtmitosis.jpg")
+```{r}
+knitr::include_graphics("http://www.nature.com/nrc/journal/v13/n3/images/nrc3468-f1.jpg")
 ```
 
 ]
+
+.pull-right[
+
+```{r}
+tab <- readr::read_delim("Tsükliini kinaas | Tsükliin | Rakutsükli faas
+CDK4/6 | D1, D2, D3 | varane G1
+CDK2 | E1, E2 | hiline G1, G1/S üleminek
+CDK2 | A | S
+CDC2 (CDK1) | A | S/G2
+CDC2 | B | M", delim = "|")
+tab <- knitr::kable(tab, format = 'html')
+kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
+```
+
+]
+
+---
+
+## Tsükliinide hulk rakus muutub rakutsükli käigus
+
+- Tsükliine kontrollitakse läbi proteolüütilise lagundamise.
+- Tsükliini järkjärguline tõus ja kiire lagundamine tagab rakutsükli 'hammasrataste' liikumise ühes sunas.
+- **D-tsükliinid erinevad: nende puhu ei toimu järske kõikumisi rakutsükli käigus**
+- **D-tsükliinid on reguleeritud mitogeensete signaalide poolt**
+
+```{r}
+knitr::include_graphics("http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cyclin_Expression.svg/1280px-Cyclin_Expression.svg.png")
+```
+
+
+---
+
+## Rakutsükkel liigub ühes suunas
+
+Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
+
+- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
+
+- Replikatsioon peab eelnema kromosoomide lahknemisele.
+
+- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
 
 ---
 
@@ -255,86 +430,6 @@ Tagab mitogeense kontrolli rakutsükli kulgemise üle
     - Samuti on rakud tundlikud TGF-beta anti-mitogeensele toimele.
     
 - Hilises G1 faasis on rakud juba pühendunud S-faasi sisenemisele ja ei sõltu enam rakuvälistest signaalidest.
-
----
-
-## Rakutsükli masinavärki reguleerivad kinaasid
-
-Rakutsükli kinaaside (**CDK**) substraadid:
-- Tsentrosoomi valke (CP110) fosforüleeritakse G1/S üleminekul tsentrosoomi duplitseerumiseks
-
-- Enne S-faasi aktiveeritakse replikatsioonikompleks (Treslin).
-
-- Histoonide fosforüleerimine S ja M faasis kromatiini kondenseerumiseks.
-- Tuumamebraani valkude (Lamiin) fosorüleerimine põhjustab tuumamembraani lagunemise M-faasis.
-
----
-
-## Rakutsükli kinaasid (CDK)
-
-- CDK on Ser/Tre-kinaasid.
-- 40% aa järjestusest identsed.
-- **CDK aktiveerub seostumisel tsükliiniga**
-    - tsükliin E + CDK2 kompleksi kinaasne aktiivsus tõuseb 400000 korda.
-    - Tsükliinid tagavad ka substraat spetsiifilisuse.
-
-```{r, out.width=400, fig.align='center'}
-knitr::include_graphics("figures/A-CDK2anno.png")
-```
-
-.footer[Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Jeffrey, P.D.,  Russo, A.A.,  Polyak, K.,  Gibbs, E.,  Hurwitz, J.,  Massague, J.,  Pavletich, N.P. (1995) Nature 376: 313-320]
-
----
-## Iga tsükliin paardub kindla kinaasiga kindlas rakusükli faasis
- 
-.pull-left[
-
-```{r}
-knitr::include_graphics("http://www.nature.com/nrc/journal/v13/n3/images/nrc3468-f1.jpg")
-```
-
-]
-
-.pull-right[
-
-```{r}
-tab <- readr::read_delim("Tsükliini kinaas | Tsükliin | Rakutsükli faas
-CDK4/6 | D1, D2, D3 | varane G1
-CDK2 | E1, E2 | hiline G1, G1/S üleminek
-CDK2 | A | S
-CDC2 (CDK1) | A | S/G2
-CDC2 | B | M", delim = "|")
-tab <- knitr::kable(tab, format = 'html')
-kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
-```
-
-]
-
----
-
-## Tsükliinide hulk rakus muutub rakutsükli käigus
-
-- Tsükliine kontrollitakse läbi proteolüütilise lagundamise.
-- Tsükliini järkjärguline tõus ja kiire lagundamine tagab rakutsükli 'hammasrataste' liikumise ühes sunas.
-- **D-tsükliinid erinevad: nende puhu ei toimu järske kõikumisi rakutsükli käigus**
-- **D-tsükliinid on reguleeritud mitogeensete signaalide poolt**
-
-```{r}
-knitr::include_graphics("http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cyclin_Expression.svg/1280px-Cyclin_Expression.svg.png")
-```
-
-
----
-
-## Rakutsükkel liigub ühes suunas
-
-Tuuma tsükkel on koordineeritud raku kasvu ja pooldumisega.
-
-- Replikatsioon peab toimuma vaid üks kord rakutsükli jooksul.
-
-- Replikatsioon peab eelnema kromosoomide lahknemisele.
-
-- Kromosoomide lahknemine peab omakorda olema toimunud enne tsütokineesi e. raku jagunemist.
 
 ---
 
@@ -678,34 +773,3 @@ kableExtra::kable_styling(tab, "striped",
 [Erinevat tüüpi kasvajates kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](cellcyclecancer.html)
 
 
----
-class: inverse, center, middle
-
-## Lingid teistele loengutele
-
----
-class: inverse, middle
-
-
-.pull-left[ 
-
-- [Sissejuhatav loeng](http://tpall.github.io/onkobioloogia)
-- [Viirused ja onkogeenid](http://tpall.github.io/viirused-ja-onkogeenid)
-- [Retseptorid](http://tpall.github.io/Retseptorid)
-- [Signaalirajad](http://tpall.github.io/Signaalirajad)
-- [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
-- [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
-
-]
-
-.pull-right[ 
-
-- [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
-- [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
-- [Tumorigenees](http://tpall.github.io/Tumorigenees)
-- [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
-- [Mikrokeskkond](http://tpall.github.io/Mikrokeskkond)
-- [Metastaasid](http://tpall.github.io/Metastaas)
-- [Immuunsus](http://tpall.github.io/Immuunsus)
-- [Vähiravimid](http://tpall.github.io/Vahiravim)
-]
