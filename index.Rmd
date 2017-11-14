@@ -114,7 +114,7 @@ knitr::include_graphics("assets/art_jpeg/figure_20-02.jpg")
 
 - Vaikeolek on rakkudel enamasti pöörduv
 
-- Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **post-mitootilisteks**, nt. neuronid
+- Rakke mis enam ei jagune ja on terminaalselt diferentseerunud nimetatakse **postmitootilisteks**, nt. neuronid
 ]
 
 ---
